@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T06:44:43.474Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3775.400 QQBrowser/10.6.4209.400" etag="e1103FdmHa-1thNBQTA8" version="13.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-13T06:44:54.300Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3775.400 QQBrowser/10.6.4209.400" etag="m1aVmw71OW5e7J6wSVf1" version="13.8.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1308" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,22 +84,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nfd0PvNXw49-kD_U2GzK-34" value="blk_mq_tag_set" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="735" y="302" width="180" height="152" as="geometry" />
+          <mxGeometry x="735" y="302" width="180" height="126" as="geometry" />
         </mxCell>
         <mxCell id="nfd0PvNXw49-kD_U2GzK-43" value="+ struct blk_mq_tags      **tags" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="nfd0PvNXw49-kD_U2GzK-34" vertex="1">
           <mxGeometry y="26" width="180" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="w2Xp27Y0oE3M_O9rvoQh-20" value="+ unsigned int            *mq_map" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nfd0PvNXw49-kD_U2GzK-34">
+        <mxCell id="nfd0PvNXw49-kD_U2GzK-72" value="+ int numa_node" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="nfd0PvNXw49-kD_U2GzK-34" vertex="1">
           <mxGeometry y="50" width="180" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="nfd0PvNXw49-kD_U2GzK-72" value="+ int numa_node" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="nfd0PvNXw49-kD_U2GzK-34" vertex="1">
-          <mxGeometry y="76" width="180" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="nfd0PvNXw49-kD_U2GzK-52" value="unsigned int            *mq_map" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="nfd0PvNXw49-kD_U2GzK-34" vertex="1">
-          <mxGeometry y="102" width="180" height="24" as="geometry" />
+          <mxGeometry y="76" width="180" height="24" as="geometry" />
         </mxCell>
         <mxCell id="nfd0PvNXw49-kD_U2GzK-104" value="+ const struct blk_mq_ops *ops" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="nfd0PvNXw49-kD_U2GzK-34" vertex="1">
-          <mxGeometry y="126" width="180" height="26" as="geometry" />
+          <mxGeometry y="100" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nfd0PvNXw49-kD_U2GzK-46" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nfd0PvNXw49-kD_U2GzK-44" target="nfd0PvNXw49-kD_U2GzK-34" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
