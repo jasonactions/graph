@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-01T09:24:22.123Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3775.400 QQBrowser/10.6.4209.400" etag="ixf4l0QOQ_XbCcHLPqh4" version="13.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-02T05:40:54.625Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3775.400 QQBrowser/10.6.4209.400" etag="PZj3xOMtrClgj7-tOpo3" version="13.8.7" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2632" dy="1548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -42,6 +42,9 @@
         </mxCell>
         <mxCell id="fx7cBn-6XIucTSGSKK7o-53" value="u-boot.srec" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="250" y="180" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fx7cBn-6XIucTSGSKK7o-227" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fx7cBn-6XIucTSGSKK7o-54" target="fx7cBn-6XIucTSGSKK7o-225">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fx7cBn-6XIucTSGSKK7o-54" value="u-boot.bin" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="250" y="260" width="70" height="35" as="geometry" />
@@ -272,6 +275,9 @@
         </mxCell>
         <mxCell id="fx7cBn-6XIucTSGSKK7o-222" value="&lt;div&gt;&lt;div style=&quot;padding: 0px 10px 0px 17px ; border-left: 3px solid rgb(232 , 232 , 232) ; margin: 0px 5px&quot;&gt;$(LDSCRIPT)&lt;/div&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="560" y="60" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fx7cBn-6XIucTSGSKK7o-225" value="u-boot-nodtb.bin" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="350" y="260" width="110" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
