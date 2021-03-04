@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T02:39:14.587Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="Y0D_HW3trk1bVarVq6_V" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-04T02:39:44.610Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="BUjT4ZQlKjbDsdhf3WWM" version="14.4.3" type="github">
   <diagram id="U19C1owaO59zhiJw0SZX" name="Page-1">
     <mxGraphModel dx="926" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -785,7 +785,7 @@
         <mxCell id="jVLhkkgNdd034iKlA2Vm-526" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="688" y="514" width="20" height="196" as="geometry" />
         </mxCell>
-        <mxCell id="jVLhkkgNdd034iKlA2Vm-527" value="2^gfporder个页面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="jVLhkkgNdd034iKlA2Vm-527" value="2^gfporder个页面&lt;br&gt;slab采用传统布局" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="578" y="602" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jVLhkkgNdd034iKlA2Vm-528" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" target="jVLhkkgNdd034iKlA2Vm-2" edge="1">
