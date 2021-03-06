@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-06T08:45:45.673Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="FJniDaWADj8phHjW1CFY" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-06T08:47:38.414Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="1IsQhV3y0RoPPckI5MHV" version="14.4.3" type="github">
   <diagram id="U19C1owaO59zhiJw0SZX" name="Page-1">
     <mxGraphModel dx="1621" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -834,7 +834,7 @@
           <mxGeometry x="450" y="1080" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i3Us6xHdZzbh27CVdtw6-8" value="VM_READ | VM_WRITE |..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="598" y="1080" width="292" height="40" as="geometry" />
+          <mxGeometry x="650" y="1080" width="292" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i3Us6xHdZzbh27CVdtw6-9" value="page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="1210" width="56" height="30" as="geometry" />
@@ -884,10 +884,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="i3Us6xHdZzbh27CVdtw6-24" value="VMA属性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="715" y="1050" width="57" height="20" as="geometry" />
+          <mxGeometry x="772.5" y="1050" width="57" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i3Us6xHdZzbh27CVdtw6-25" value="进程地址空间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="1050" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i3Us6xHdZzbh27CVdtw6-26" value="vm_get_page_prot()&lt;br&gt;进行属性转换" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="782" y="1120" width="40" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
