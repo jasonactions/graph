@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T01:18:23.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="rRJc59tPfU62VvK_IEBl" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-02T02:04:33.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="9isx9lkVNeO9k7aZGX7v" version="14.9.8" type="github">
   <diagram id="BfIS2sD1Y3BWhVtZIZhU" name="Page-1">
-    <mxGraphModel dx="2384" dy="313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3158" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,7 +120,7 @@
         <mxCell id="Ss7OasY8dbcF1JQ-vaEw-59" value=".idmap.text" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" parent="1" vertex="1">
           <mxGeometry x="280" y="475" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="zmt_0xr4Gf3RQSqHWVoz-2" value="" style="endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" target="Ss7OasY8dbcF1JQ-vaEw-25" edge="1">
+        <mxCell id="zmt_0xr4Gf3RQSqHWVoz-2" value="" style="endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" target="Ss7OasY8dbcF1JQ-vaEw-25" edge="1" source="h1nygtU6jxL2XphqunPl-181">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="387.5" as="sourcePoint" />
             <mxPoint x="450" y="337.5" as="targetPoint" />
@@ -131,7 +131,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zmt_0xr4Gf3RQSqHWVoz-3" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.013;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Ss7OasY8dbcF1JQ-vaEw-7" target="Ss7OasY8dbcF1JQ-vaEw-21" edge="1">
+        <mxCell id="zmt_0xr4Gf3RQSqHWVoz-3" value="" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.013;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="h1nygtU6jxL2XphqunPl-181" target="Ss7OasY8dbcF1JQ-vaEw-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="575" as="sourcePoint" />
             <mxPoint x="490" y="525" as="targetPoint" />
@@ -496,18 +496,6 @@
         </mxCell>
         <mxCell id="h1nygtU6jxL2XphqunPl-181" value=".idmap.text" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fillColor=#99FFCC;" parent="1" vertex="1">
           <mxGeometry x="279" y="723" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="h1nygtU6jxL2XphqunPl-184" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fillColor=#FF3333;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="h1nygtU6jxL2XphqunPl-181" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="550" y="710" as="sourcePoint" />
-            <mxPoint x="570" y="480" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="h1nygtU6jxL2XphqunPl-185" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fillColor=#FF3333;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="h1nygtU6jxL2XphqunPl-181" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="740" as="sourcePoint" />
-            <mxPoint x="570" y="500" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="h1nygtU6jxL2XphqunPl-190" value="&lt;h1&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;idmap.text的映射页表存放在idmap_pg（恒等映射）&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;kernel image的映射页表存放在init_pg&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="500" y="579" width="350" height="85" as="geometry" />
