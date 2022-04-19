@@ -1,1 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2022-04-19T06:30:02.785Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3883.400 QQBrowser/10.8.4559.400" version="17.4.0" etag="1mIiwLs-w11vADXnZ-GV" type="github"><diagram id="n7DuEQMFLMZEM_3gO0Fe">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-19T07:33:21.089Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3883.400 QQBrowser/10.8.4559.400" etag="3y3D69JdHxIaAUEEdmx0" version="17.4.0" type="github">
+  <diagram id="n7DuEQMFLMZEM_3gO0Fe" name="Page-1">
+    <mxGraphModel dx="835" dy="454" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TMJ--TbqOV-L6r4FokhD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TMJ--TbqOV-L6r4FokhD-1" target="TMJ--TbqOV-L6r4FokhD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TMJ--TbqOV-L6r4FokhD-10" value="与...通信" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TMJ--TbqOV-L6r4FokhD-8">
+          <mxGeometry x="-0.2743" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMJ--TbqOV-L6r4FokhD-1" value="智能床" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="233" y="171" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TMJ--TbqOV-L6r4FokhD-2" value="OTA服务器" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="233" y="388" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TMJ--TbqOV-L6r4FokhD-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TMJ--TbqOV-L6r4FokhD-3" target="TMJ--TbqOV-L6r4FokhD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TMJ--TbqOV-L6r4FokhD-3" value="路由器" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="233" y="287" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TMJ--TbqOV-L6r4FokhD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TMJ--TbqOV-L6r4FokhD-4" target="TMJ--TbqOV-L6r4FokhD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TMJ--TbqOV-L6r4FokhD-4" value="手机" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="53" y="171" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
