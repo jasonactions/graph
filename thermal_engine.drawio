@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T06:17:05.263Z" agent="5.0 (X11)" etag="_S2Yqcizvi_0GtfloQa0" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-22T08:29:40.427Z" agent="5.0 (X11)" etag="-R07t3Zv5pF1RNaodvrD" version="20.2.4" type="github">
   <diagram id="ZUp7OmayhHO2g7F2E1sx" name="Page-1">
     <mxGraphModel dx="931" dy="506" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
         </mxCell>
         <mxCell id="tpQ_NBix8br7maSW0kcR-15" value="client_list" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tpQ_NBix8br7maSW0kcR-14">
           <mxGeometry x="0.2228" relative="1" as="geometry">
-            <mxPoint x="2" y="-10" as="offset" />
+            <mxPoint x="17" y="-26" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tpQ_NBix8br7maSW0kcR-6" value="devices_manager_dev" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -55,6 +55,9 @@
         <mxCell id="tpQ_NBix8br7maSW0kcR-18" value="next_dev" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="200" y="253" width="66" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="tpQ_NBix8br7maSW0kcR-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tpQ_NBix8br7maSW0kcR-19" target="tpQ_NBix8br7maSW0kcR-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tpQ_NBix8br7maSW0kcR-19" value="devices_manager_dev" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="437" y="251" width="132" height="44" as="geometry" />
         </mxCell>
@@ -80,7 +83,56 @@
           <mxGeometry x="543.5" y="134" width="87" height="32" as="geometry" />
         </mxCell>
         <mxCell id="tpQ_NBix8br7maSW0kcR-30" value="每个频率一个" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="399" y="96" width="134" height="30" as="geometry" />
+          <mxGeometry x="378" y="110" width="134" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tpQ_NBix8br7maSW0kcR-31" value="每个CPU一个" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="439" y="221" width="134" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tpQ_NBix8br7maSW0kcR-32" value="dev_list" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="261.25" width="46" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tpQ_NBix8br7maSW0kcR-34" value="每个CPU一个" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="433" y="335" width="134" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tpQ_NBix8br7maSW0kcR-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.535;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tpQ_NBix8br7maSW0kcR-35" target="tpQ_NBix8br7maSW0kcR-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tpQ_NBix8br7maSW0kcR-38" value="sensor_mgr" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tpQ_NBix8br7maSW0kcR-37">
+          <mxGeometry x="-0.6896" relative="1" as="geometry">
+            <mxPoint y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tpQ_NBix8br7maSW0kcR-35" value="sensor_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="217" y="658" width="82" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="tpQ_NBix8br7maSW0kcR-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tpQ_NBix8br7maSW0kcR-36" target="tpQ_NBix8br7maSW0kcR-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tpQ_NBix8br7maSW0kcR-41" value="client_list" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tpQ_NBix8br7maSW0kcR-40">
+          <mxGeometry x="-0.7232" relative="1" as="geometry">
+            <mxPoint x="5" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tpQ_NBix8br7maSW0kcR-36" value="sensors_mgr_sensor_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="548" width="155" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="tpQ_NBix8br7maSW0kcR-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tpQ_NBix8br7maSW0kcR-39" target="tpQ_NBix8br7maSW0kcR-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tpQ_NBix8br7maSW0kcR-39" value="sensor_client_type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="203" y="466" width="100" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="tpQ_NBix8br7maSW0kcR-42" value="sensor_client_type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="466" width="105" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="tpQ_NBix8br7maSW0kcR-43" value="sensor_client_type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="514" y="467" width="100" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="tpQ_NBix8br7maSW0kcR-45" value="next_clnt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="304" y="463" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tpQ_NBix8br7maSW0kcR-47" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="466" y="465" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
