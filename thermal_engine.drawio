@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T08:02:34.508Z" agent="5.0 (X11)" etag="xDILulFvkwYiCj3Xbrye" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-23T10:50:13.156Z" agent="5.0 (X11)" etag="Iy_-pa8hKQctVs8J0fgX" version="20.2.4" type="github">
   <diagram id="ZUp7OmayhHO2g7F2E1sx" name="Page-1">
     <mxGraphModel dx="931" dy="506" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -308,7 +308,7 @@
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-27" value="setting_info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="217.25" y="2177" width="63" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="Njz1t2tOMkC0xSzIqLE6-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.172;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Njz1t2tOMkC0xSzIqLE6-34" target="Njz1t2tOMkC0xSzIqLE6-36">
+        <mxCell id="Njz1t2tOMkC0xSzIqLE6-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Njz1t2tOMkC0xSzIqLE6-34" target="Njz1t2tOMkC0xSzIqLE6-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-41" value="dev_clnt_list" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Njz1t2tOMkC0xSzIqLE6-40">
@@ -331,19 +331,19 @@
           <mxGeometry x="203" y="2341" width="91.5" height="27" as="geometry" />
         </mxCell>
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-36" value="device_clnt_handle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="307" y="2239" width="103.6" height="25" as="geometry" />
+          <mxGeometry x="384.4" y="2387" width="103.6" height="25" as="geometry" />
         </mxCell>
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-37" value="device_clnt_handle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410.2" y="2239" width="103.6" height="25" as="geometry" />
+          <mxGeometry x="487.6" y="2387" width="103.6" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="Njz1t2tOMkC0xSzIqLE6-38" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="513.74" y="2239" width="28.26" height="25" as="geometry" />
+        <mxCell id="Njz1t2tOMkC0xSzIqLE6-38" value="&lt;div&gt;16个...&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="591.14" y="2387" width="49.86" height="25" as="geometry" />
         </mxCell>
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-39" value="device_clnt_handle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="542" y="2239" width="103.6" height="25" as="geometry" />
+          <mxGeometry x="641" y="2387" width="103.6" height="25" as="geometry" />
         </mxCell>
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-42" value="16个" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="430" y="2212" width="60" height="30" as="geometry" />
+          <mxGeometry x="507.4" y="2360" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.812;entryY=1.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Njz1t2tOMkC0xSzIqLE6-43" target="tpQ_NBix8br7maSW0kcR-49">
           <mxGeometry relative="1" as="geometry" />
@@ -357,16 +357,16 @@
           <mxGeometry x="354" y="2303" width="103.6" height="25" as="geometry" />
         </mxCell>
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-47" value="device_info *" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="213" y="2415" width="72.34" height="31" as="geometry" />
+          <mxGeometry x="213" y="2449" width="72.34" height="31" as="geometry" />
         </mxCell>
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-48" value="device_info *" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="285.26000000000005" y="2415" width="72.34" height="31" as="geometry" />
+          <mxGeometry x="285.26000000000005" y="2449" width="72.34" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="Njz1t2tOMkC0xSzIqLE6-49" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="356.6" y="2415" width="48" height="31" as="geometry" />
+        <mxCell id="Njz1t2tOMkC0xSzIqLE6-49" value="16个..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="356.6" y="2449" width="48" height="31" as="geometry" />
         </mxCell>
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-50" value="device_info *" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="403.94" y="2415" width="72.34" height="31" as="geometry" />
+          <mxGeometry x="403.94" y="2449" width="72.34" height="31" as="geometry" />
         </mxCell>
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-52" value="dev_info_list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="184.95" y="2373" width="84" height="26" as="geometry" />
@@ -450,19 +450,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-79" value="device_info_arr" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="76" y="2494.5" width="81.53" height="22" as="geometry" />
+          <mxGeometry x="76" y="2579.5" width="81.53" height="22" as="geometry" />
         </mxCell>
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-80" value="device_info " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="202.67000000000002" y="2490" width="72.34" height="31" as="geometry" />
+          <mxGeometry x="202.67000000000002" y="2575" width="72.34" height="31" as="geometry" />
         </mxCell>
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-81" value="device_info " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="274.93000000000006" y="2490" width="72.34" height="31" as="geometry" />
+          <mxGeometry x="274.93000000000006" y="2575" width="72.34" height="31" as="geometry" />
         </mxCell>
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-82" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="346.27000000000004" y="2490" width="48" height="31" as="geometry" />
+          <mxGeometry x="346.27000000000004" y="2575" width="48" height="31" as="geometry" />
         </mxCell>
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-83" value="device_info " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="393.61" y="2490" width="72.34" height="31" as="geometry" />
+          <mxGeometry x="393.61" y="2575" width="72.34" height="31" as="geometry" />
         </mxCell>
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Njz1t2tOMkC0xSzIqLE6-85" target="tpQ_NBix8br7maSW0kcR-16">
           <mxGeometry relative="1" as="geometry" />
@@ -558,7 +558,7 @@
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-117" value="action_t" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="57" y="1966" width="93" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="Njz1t2tOMkC0xSzIqLE6-118" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Njz1t2tOMkC0xSzIqLE6-118" value="最大32个..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="57" y="2004" width="93" height="38" as="geometry" />
         </mxCell>
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-119" value="action_t" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -567,8 +567,8 @@
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Njz1t2tOMkC0xSzIqLE6-67" target="Njz1t2tOMkC0xSzIqLE6-114">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Njz1t2tOMkC0xSzIqLE6-123" value="&lt;div align=&quot;left&quot;&gt;&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;f1n5-1661141266772&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;wrap&amp;quot;:false,&amp;quot;language&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;KPOQ-1661141266771&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;R72n-1661141259260&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;devices_init&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}],&amp;quot;state&amp;quot;:{}}]&quot;&gt;&lt;div&gt;1. devices_init时对每一个cooling device创建一个devices_manager_dev,它会连入全局dev_list链表&lt;/div&gt;&lt;div&gt;它的主要信息保存在device_info中&lt;br&gt;&lt;/div&gt;&lt;/article&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2. 为每一个cooling device的级别（如频率）创建一个device_lvl_info&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3. 会为每一个cooling device创建一个client，即device_clnt, 并连入devices_manager_dev链表&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;4.sensor_init时每个sensor device会创建一个sensors_mgr_sensor_info，它会连入全局sensor_list链表，&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;它的主要信息保存在sensor_info中&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt; &lt;/div&gt;&lt;div align=&quot;left&quot;&gt;5.以monitor算法为例，初始化时thermal_monitor会创建tm_instance_info数组，根据setting_info的数量，消费tm_instance_info，遍历tm_instance_info，创建sensor client&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="49" y="2945" width="593" height="144" as="geometry" />
+        <mxCell id="Njz1t2tOMkC0xSzIqLE6-123" value="&lt;div align=&quot;left&quot;&gt;&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;f1n5-1661141266772&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;wrap&amp;quot;:false,&amp;quot;language&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;KPOQ-1661141266771&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;R72n-1661141259260&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;devices_init&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}],&amp;quot;state&amp;quot;:{}}]&quot;&gt;&lt;div&gt;1. devices_init时对每一个cooling device创建一个devices_manager_dev,它会连入全局dev_list链表&lt;/div&gt;&lt;div&gt;它的主要信息保存在device_info中&lt;br&gt;&lt;/div&gt;&lt;/article&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2. 为每一个cooling device的级别（如频率）创建一个device_lvl_info&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3. 会为每一个cooling device创建一个client，即device_clnt, 并连入devices_manager_dev链表&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;4.sensor_init时每个sensor device会创建一个sensors_mgr_sensor_info，它会连入全局sensor_list链表，&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;它的主要信息保存在sensor_info中&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt; &lt;/div&gt;&lt;div align=&quot;left&quot;&gt;5.以monitor算法为例，初始化时thermal_monitor会创建tm_instance_info数组，根据setting_info的数量，消费tm_instance_info，遍历tm_instance_info，创建sensor client&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;dev_info_list管理的成员主要用于存放同个tm_instance_info下的action对应的dev_info&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;TODO: dev_info_list成员何时初始化？&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="49" y="2945" width="610" height="217" as="geometry" />
         </mxCell>
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-125" value="&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;f1n5-1661141266772&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;wrap&amp;quot;:false,&amp;quot;language&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;W1r8-1661174786493&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;MhkS-1661174786492&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;dev_mgr&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}],&amp;quot;state&amp;quot;:{}}]&quot;&gt;&lt;div data-language=&quot;&quot; style=&quot;&quot; data-theme=&quot;default&quot;&gt;dev_mgr&lt;/div&gt;&lt;/article&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="322" y="2857" width="64" height="26" as="geometry" />
