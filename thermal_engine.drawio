@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-25T07:21:21.418Z" agent="5.0 (X11)" etag="pOqrmZRq-v3bP1GBOprM" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-25T08:36:26.614Z" agent="5.0 (X11)" etag="fHOWW1ysd2XwaMOGsj3H" version="20.2.7" type="github">
   <diagram id="ZUp7OmayhHO2g7F2E1sx" name="Page-1">
     <mxGraphModel dx="1975" dy="612" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1081,7 +1081,7 @@
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-93" value="&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;RNjT-1660987119926&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;wrap&amp;quot;:false,&amp;quot;language&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;96fJ-1660989812052&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;NEm6-1660989812051&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;devm_thermal_zone_of_sensor_register&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}],&amp;quot;state&amp;quot;:{}}]&quot;&gt;&lt;div data-language=&quot;&quot; style=&quot;&quot; data-theme=&quot;default&quot;&gt;devm_thermal_zone_of_sensor_register&lt;/div&gt;&lt;/article&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-74" y="5072.5" width="222" height="35.5" as="geometry" />
         </mxCell>
-        <mxCell id="Frr9vzhRiaKBkHXC4kWm-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-95" target="Frr9vzhRiaKBkHXC4kWm-98">
+        <mxCell id="Frr9vzhRiaKBkHXC4kWm-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-95" target="Frr9vzhRiaKBkHXC4kWm-98">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-95" target="Frr9vzhRiaKBkHXC4kWm-104">
@@ -1101,6 +1101,9 @@
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-100" value="中断线程处理函数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="30.53" y="5126" width="134" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Frr9vzhRiaKBkHXC4kWm-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-104" target="Frr9vzhRiaKBkHXC4kWm-141">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-104" value="&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;RNjT-1660987119926&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;wrap&amp;quot;:false,&amp;quot;language&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;6BL7-1660991590420&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;LEGL-1660991590418&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;tsens_register_irq&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}],&amp;quot;state&amp;quot;:{}}]&quot;&gt;&lt;div data-language=&quot;&quot; style=&quot;&quot; data-theme=&quot;default&quot;&gt;tsens_register_irq&lt;/div&gt;&lt;/article&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="162.45" y="5216" width="127" height="33" as="geometry" />
@@ -1126,68 +1129,76 @@
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-110" value="thermal_zone_set_trips" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-90" y="5293" width="121" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="Frr9vzhRiaKBkHXC4kWm-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-115" target="Frr9vzhRiaKBkHXC4kWm-117">
+        <mxCell id="Frr9vzhRiaKBkHXC4kWm-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-115" target="Frr9vzhRiaKBkHXC4kWm-117">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Frr9vzhRiaKBkHXC4kWm-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-115" target="Frr9vzhRiaKBkHXC4kWm-118">
+        <mxCell id="Frr9vzhRiaKBkHXC4kWm-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-115" target="Frr9vzhRiaKBkHXC4kWm-118">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Frr9vzhRiaKBkHXC4kWm-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-115" target="Frr9vzhRiaKBkHXC4kWm-121">
+        <mxCell id="Frr9vzhRiaKBkHXC4kWm-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-115" target="Frr9vzhRiaKBkHXC4kWm-121">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Frr9vzhRiaKBkHXC4kWm-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-115" target="Frr9vzhRiaKBkHXC4kWm-124">
+        <mxCell id="Frr9vzhRiaKBkHXC4kWm-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-115" target="Frr9vzhRiaKBkHXC4kWm-124">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Frr9vzhRiaKBkHXC4kWm-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-115" target="Frr9vzhRiaKBkHXC4kWm-129">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Frr9vzhRiaKBkHXC4kWm-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-115" target="Frr9vzhRiaKBkHXC4kWm-129">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="5544" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-115" value="&lt;div&gt;for (count = 0; count &amp;lt; tz-&amp;gt;trips; count++)&lt;/div&gt;&lt;div&gt;handle_thermal_trip(tz, count)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-144" y="5343" width="229" height="33" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-117" value="tz-&amp;gt;ops-&amp;gt;get_trip_temp(tz, trip, &amp;amp;trip_temp)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-297" y="5398" width="240" height="27" as="geometry" />
+          <mxGeometry x="42.60000000000002" y="5391" width="240" height="27" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-118" value="tz-&amp;gt;ops-&amp;gt;get_trip_type(tz, trip, &amp;amp;type)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-297" y="5433" width="240" height="27" as="geometry" />
+          <mxGeometry x="40.25" y="5432" width="240" height="27" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-121" value="tz-&amp;gt;ops-&amp;gt;get_trip_hyst(tz, trip, &amp;amp;hyst)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-297" y="5468" width="240" height="27" as="geometry" />
+          <mxGeometry x="38.99999999999997" y="5477" width="240" height="27" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-124" value="&lt;div&gt;thermal_notify_tz_trip_up/&lt;/div&gt;&lt;div&gt;thermal_notify_tz_trip_down&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-297" y="5515" width="161" height="32" as="geometry" />
+          <mxGeometry x="36.80000000000001" y="5528" width="161" height="32" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-126" value="如果温度变化通知用户空间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-282" y="5495" width="149" height="30" as="geometry" />
+          <mxGeometry x="35.5" y="5504" width="149" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Frr9vzhRiaKBkHXC4kWm-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-128" target="Frr9vzhRiaKBkHXC4kWm-136">
+        <mxCell id="Frr9vzhRiaKBkHXC4kWm-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-128" target="Frr9vzhRiaKBkHXC4kWm-136">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-128" value="handle_critical_trips" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-342" y="5570" width="127" height="22" as="geometry" />
+          <mxGeometry x="158.33999999999997" y="5579" width="127" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="Frr9vzhRiaKBkHXC4kWm-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-129" target="Frr9vzhRiaKBkHXC4kWm-134">
+        <mxCell id="Frr9vzhRiaKBkHXC4kWm-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-129" target="Frr9vzhRiaKBkHXC4kWm-134">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-129" value="handle_non_critical_trips" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-191" y="5570" width="142" height="22" as="geometry" />
+          <mxGeometry x="-9.550000000000011" y="5577" width="142" height="22" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-130" value="or" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-233" y="5566" width="60" height="30" as="geometry" />
+          <mxGeometry x="115.60000000000002" y="5577" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-132" value="紧急处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-314" y="5547" width="60" height="30" as="geometry" />
+          <mxGeometry x="189.99999999999997" y="5560" width="60" height="22" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-133" value="非紧急处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="5550" width="70" height="30" as="geometry" />
+          <mxGeometry x="20" y="5556" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-134" value="tz-&amp;gt;governor-&amp;gt;throttle(tz, trip)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-89.47000000000001" y="5603" width="157" height="38" as="geometry" />
+          <mxGeometry x="-120.2" y="5620" width="157" height="29" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-136" value="tz-&amp;gt;ops-&amp;gt;critical(tz)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-420" y="5606" width="120" height="32" as="geometry" />
+          <mxGeometry x="241.99999999999997" y="5618" width="120" height="32" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-138" value="遍历组内所有的tsens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-90" y="5175" width="127" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Frr9vzhRiaKBkHXC4kWm-139" value="计算下一个trip点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-167" y="5274" width="127" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Frr9vzhRiaKBkHXC4kWm-141" value="&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;RNjT-1660987119926&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;wrap&amp;quot;:false,&amp;quot;language&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;y6TM-1660991609079&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;HvDi-1660991609078&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;tsens_critical_irq_thread&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}],&amp;quot;state&amp;quot;:{}}]&quot;&gt;&lt;div data-language=&quot;&quot; style=&quot;&quot; data-theme=&quot;default&quot;&gt;tsens_critical_irq_thread&lt;/div&gt;&lt;/article&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339.90000000000003" y="5217" width="138.4" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
