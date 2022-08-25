@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-25T10:34:13.818Z" agent="5.0 (X11)" etag="_sLENKDFSsW81aif4Knn" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-25T10:36:19.332Z" agent="5.0 (X11)" etag="AsaAvJFQ4QOnakfBVFkG" version="20.2.7" type="github">
   <diagram id="ZUp7OmayhHO2g7F2E1sx" name="Page-1">
     <mxGraphModel dx="2035" dy="754" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1322,12 +1322,6 @@
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-190" value="devices_init" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="81.77000000000001" y="6535" width="96" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="Frr9vzhRiaKBkHXC4kWm-191" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="686" y="6843" width="122" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="Frr9vzhRiaKBkHXC4kWm-192" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="696" y="6853" width="122" height="29" as="geometry" />
-        </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-193" target="Frr9vzhRiaKBkHXC4kWm-194">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1347,19 +1341,19 @@
           <mxGeometry x="351.6" y="6864.5" width="213.94" height="29" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-196" value="&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;f1n5-1661141266772&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;wrap&amp;quot;:false,&amp;quot;language&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;0rtV-1661183274088&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;pvs6-1661183274087&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;cooling_devices_init&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}],&amp;quot;state&amp;quot;:{}}]&quot;&gt;&lt;div data-language=&quot;&quot; style=&quot;&quot; data-theme=&quot;default&quot;&gt;cooling_devices_init&lt;/div&gt;&lt;/article&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="71.79999999999995" y="6976" width="122" height="29" as="geometry" />
+          <mxGeometry x="70.79999999999995" y="7052" width="122" height="29" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-197" target="Frr9vzhRiaKBkHXC4kWm-196">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-197" value="&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;f1n5-1661141266772&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;wrap&amp;quot;:false,&amp;quot;language&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;StRK-1661182725313&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;vssl-1661182725311&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;init_generic_devs&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}],&amp;quot;state&amp;quot;:{}}]&quot;&gt;&lt;div data-language=&quot;&quot; style=&quot;&quot; data-theme=&quot;default&quot;&gt;init_generic_devs&lt;/div&gt;&lt;/article&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="71.63999999999999" y="6922" width="122" height="29" as="geometry" />
+          <mxGeometry x="71.63999999999999" y="6973" width="122" height="29" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-198" target="Frr9vzhRiaKBkHXC4kWm-197">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-198" value="&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;f1n5-1661141266772&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;wrap&amp;quot;:false,&amp;quot;language&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;Tz12-1661175317640&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;9UG0-1661175317638&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;tmd_init_gpu_devs&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}],&amp;quot;state&amp;quot;:{}}]&quot;&gt;&lt;div data-language=&quot;&quot; style=&quot;&quot; data-theme=&quot;default&quot;&gt;tmd_init_gpu_devs&lt;/div&gt;&lt;/article&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="71.63999999999999" y="6868" width="122" height="29" as="geometry" />
+          <mxGeometry x="71.63999999999999" y="6889" width="122" height="29" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-199" target="Frr9vzhRiaKBkHXC4kWm-198">
           <mxGeometry relative="1" as="geometry">
@@ -1417,13 +1411,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-209" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;f1n5-1661141266772&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;wrap&amp;quot;:false,&amp;quot;language&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;0rtV-1661183274088&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;pvs6-1661183274087&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;Add all other kernel cooling devices &amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}],&amp;quot;state&amp;quot;:{}}]&quot;&gt;&lt;div data-language=&quot;&quot; style=&quot;&quot; data-theme=&quot;default&quot;&gt;Add all other kernel cooling devices &lt;/div&gt;&lt;/article&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="12.95" y="6953" width="208.05" height="36" as="geometry" />
+          <mxGeometry x="9.2" y="7020" width="208.05" height="36" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-210" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;f1n5-1661141266772&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;wrap&amp;quot;:false,&amp;quot;language&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;StRK-1661182725313&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;vssl-1661182725311&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;通用设备初始化&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}],&amp;quot;state&amp;quot;:{}}]&quot;&gt;&lt;div data-language=&quot;&quot; style=&quot;&quot; data-theme=&quot;default&quot;&gt;通用设备初始化&lt;/div&gt;&lt;/article&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="72.95" y="6899" width="112" height="36" as="geometry" />
+          <mxGeometry x="41.900000000000006" y="6940" width="112" height="36" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-211" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;f1n5-1661141266772&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;wrap&amp;quot;:false,&amp;quot;language&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;Tz12-1661175317640&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;9UG0-1661175317638&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;GPU初始化，同tmd_init_cpu_devs，主要对频率进行了初始化&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}],&amp;quot;state&amp;quot;:{}}]&quot;&gt;&lt;div data-language=&quot;&quot; style=&quot;&quot; data-theme=&quot;default&quot;&gt;GPU初始化，同tmd_init_cpu_devs，主要对频率进行了初始化&lt;/div&gt;&lt;/article&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-139.38" y="6831" width="345.07" height="27" as="geometry" />
+          <mxGeometry x="-132.07" y="6859" width="345.07" height="27" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-229" target="Frr9vzhRiaKBkHXC4kWm-231">
           <mxGeometry relative="1" as="geometry" />
