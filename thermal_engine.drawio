@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-25T08:45:53.616Z" agent="5.0 (X11)" etag="b-YgM8pN5QDbk0NfpxDK" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-25T08:48:04.990Z" agent="5.0 (X11)" etag="WI1tbwPLQn2deIV8zjvJ" version="20.2.7" type="github">
   <diagram id="ZUp7OmayhHO2g7F2E1sx" name="Page-1">
     <mxGraphModel dx="2035" dy="754" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1114,7 +1114,7 @@
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-107" target="Frr9vzhRiaKBkHXC4kWm-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Frr9vzhRiaKBkHXC4kWm-107" value="&lt;div align=&quot;left&quot;&gt;for (i = 0; i &amp;lt; priv-&amp;gt;num_sensors; i++)&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;thermal_zone_device_update&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="Frr9vzhRiaKBkHXC4kWm-107" value="&lt;div align=&quot;left&quot;&gt;for (i = 0; i &amp;lt; priv-&amp;gt;num_sensors; i++)&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;thermal_zone_device_update&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-129.2" y="5195" width="200" height="34" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-109" target="Frr9vzhRiaKBkHXC4kWm-110">
@@ -1215,10 +1215,16 @@
           <mxGeometry x="4.5" y="5681" width="144" height="29" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-148" value="&lt;br&gt;&lt;div data-language=&quot;&quot; style=&quot;&quot; data-theme=&quot;default&quot;&gt;调度tz-&amp;gt;poll_queue（在thermal zone device 注册时创建）&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-0.75" y="5656" width="322" height="12" as="geometry" />
+          <mxGeometry x="-5.660000000000025" y="5659" width="322" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="Frr9vzhRiaKBkHXC4kWm-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Frr9vzhRiaKBkHXC4kWm-150" target="Frr9vzhRiaKBkHXC4kWm-152">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-150" value="&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;JPut-1659537662563&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;wrap&amp;quot;:false,&amp;quot;language&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;5NGv-1660902615037&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;25PC-1660902615032&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;thermal_zone_device_check&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}],&amp;quot;state&amp;quot;:{}}]&quot;&gt;&lt;div data-language=&quot;&quot; style=&quot;&quot; data-theme=&quot;default&quot;&gt;thermal_zone_device_check&lt;/div&gt;&lt;/article&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="197.8" y="5680" width="164" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Frr9vzhRiaKBkHXC4kWm-152" value="thermal_zone_device_update" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="305.6" y="5733" width="182" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
