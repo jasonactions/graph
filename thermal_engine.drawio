@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-25T13:34:56.453Z" agent="5.0 (X11)" etag="nJAErotRX1-4hAdyocYw" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-25T13:42:00.616Z" agent="5.0 (X11)" etag="zKAI21X0GtnMVC5fyLBG" version="20.2.7" type="github">
   <diagram id="ZUp7OmayhHO2g7F2E1sx" name="Page-1">
     <mxGraphModel dx="1781" dy="506" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1591,6 +1591,9 @@
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-362" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;URi8-1661212983038&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;wrap&amp;quot;:false,&amp;quot;language&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;jtMe-1661234851108&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;vRm0-1661234851105&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;Create necessary device clients&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}],&amp;quot;state&amp;quot;:{}}]&quot;&gt;&lt;div data-language=&quot;&quot; style=&quot;&quot; data-theme=&quot;default&quot;&gt;Create necessary device clients&lt;/div&gt;&lt;/article&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="282.5982758620688" y="8012.998620689656" width="197" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Frr9vzhRiaKBkHXC4kWm-363" value="tm_instance_info持有device, sensor的client，并且持有goveror的配置信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="247" y="7782" width="251" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
