@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-28T09:51:14.869Z" agent="5.0 (X11)" etag="6r7IXhlvBaahRZ8Qqz-B" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-28T09:55:05.953Z" agent="5.0 (X11)" etag="sGqP-rhQx7708HBx7gcL" version="20.2.7" type="github">
   <diagram id="ZUp7OmayhHO2g7F2E1sx" name="Page-1">
     <mxGraphModel dx="2175" dy="612" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1856,25 +1856,45 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b79QnrVeS4-WYhCjMHW--157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b79QnrVeS4-WYhCjMHW--86" target="b79QnrVeS4-WYhCjMHW--155">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-508" y="673" />
+              <mxPoint x="-343" y="673" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="b79QnrVeS4-WYhCjMHW--86" value="App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-568" y="647" width="120" height="37" as="geometry" />
+          <mxGeometry x="-568" y="614" width="120" height="37" as="geometry" />
         </mxCell>
         <mxCell id="b79QnrVeS4-WYhCjMHW--158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b79QnrVeS4-WYhCjMHW--87" target="b79QnrVeS4-WYhCjMHW--155">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b79QnrVeS4-WYhCjMHW--87" value="App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-403.00000000000006" y="647" width="120" height="37" as="geometry" />
+          <mxGeometry x="-403.00000000000006" y="614" width="120" height="37" as="geometry" />
         </mxCell>
         <mxCell id="b79QnrVeS4-WYhCjMHW--159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b79QnrVeS4-WYhCjMHW--88" target="b79QnrVeS4-WYhCjMHW--155">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-169" y="672" />
+              <mxPoint x="-343" y="672" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--160" value="getCurrentThermalStatus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b79QnrVeS4-WYhCjMHW--159">
+          <mxGeometry x="0.6481" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--161" value="addThermalStatusListener / removeThermalStatusListener" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b79QnrVeS4-WYhCjMHW--159">
+          <mxGeometry x="0.8406" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" y="-7" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="b79QnrVeS4-WYhCjMHW--88" value="App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-229.00000000000006" y="647" width="120" height="37" as="geometry" />
+          <mxGeometry x="-229.00000000000006" y="614" width="120" height="37" as="geometry" />
         </mxCell>
         <mxCell id="b79QnrVeS4-WYhCjMHW--110" value="system services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-654.45" y="785" width="103" height="30" as="geometry" />
+          <mxGeometry x="-650.37" y="721" width="103" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b79QnrVeS4-WYhCjMHW--111" value="thermal core" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-478" y="1153" width="327.6" height="27" as="geometry" />
