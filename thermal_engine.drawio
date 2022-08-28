@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-28T09:27:46.537Z" agent="5.0 (X11)" etag="QBec1g89FQ2bihZW7i9Q" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-28T09:28:09.670Z" agent="5.0 (X11)" etag="XJVjj0rTKuH7gtiaJSZW" version="20.2.7" type="github">
   <diagram id="ZUp7OmayhHO2g7F2E1sx" name="Page-1">
     <mxGraphModel dx="2175" dy="612" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1886,20 +1886,20 @@
         <mxCell id="b79QnrVeS4-WYhCjMHW--129" value="ThermalMonitor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;" vertex="1" parent="1">
           <mxGeometry x="-471" y="1036" width="120" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="b79QnrVeS4-WYhCjMHW--130" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.148;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="b79QnrVeS4-WYhCjMHW--130" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.098;exitY=0.062;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="b79QnrVeS4-WYhCjMHW--111">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-447.5151999999998" y="1154.5120000000002" as="sourcePoint" />
-            <mxPoint x="-448" y="1062" as="targetPoint" />
+            <mxPoint x="-445.93519999999984" y="1165.5120000000002" as="sourcePoint" />
+            <mxPoint x="-446" y="1073" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b79QnrVeS4-WYhCjMHW--141" value="poll" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b79QnrVeS4-WYhCjMHW--130">
           <mxGeometry x="0.3116" y="-1" relative="1" as="geometry">
-            <mxPoint x="41" y="-9" as="offset" />
+            <mxPoint x="78" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b79QnrVeS4-WYhCjMHW--143" value="msg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b79QnrVeS4-WYhCjMHW--130">
           <mxGeometry x="0.5098" y="-2" relative="1" as="geometry">
-            <mxPoint x="2" y="3" as="offset" />
+            <mxPoint x="9" y="30" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b79QnrVeS4-WYhCjMHW--131" value="ThermalConfig" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;" vertex="1" parent="1">
