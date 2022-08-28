@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-27T10:05:13.613Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Core/1.94.172.400 QQBrowser/11.1.5140.400" etag="EHpjJRP_cayz6zqf6s-p" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-28T09:01:02.021Z" agent="5.0 (X11)" etag="xNpqj4fJ-vAxPwNx_QMY" version="20.2.7" type="github">
   <diagram id="ZUp7OmayhHO2g7F2E1sx" name="Page-1">
-    <mxGraphModel dx="2010" dy="602" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2175" dy="612" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1803,6 +1803,80 @@
         </mxCell>
         <mxCell id="vbtmtKYrwUgGqL5dcefB-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#CC0000;" parent="vbtmtKYrwUgGqL5dcefB-92" source="vbtmtKYrwUgGqL5dcefB-29" target="vbtmtKYrwUgGqL5dcefB-84" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-215" y="9179" as="sourcePoint" />
+            <mxPoint x="801" y="9174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--69" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-650.3700000000001" y="1123.17" as="sourcePoint" />
+            <mxPoint x="-1.3699999999999548" y="1123.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--70" value="kernel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-650.37" y="1124" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--81" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-642.9000000000001" y="890.66" as="sourcePoint" />
+            <mxPoint x="6.099999999999682" y="890.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--82" value="native" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-646.9000000000001" y="887" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--84" value="thermalManagerSevce" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-463.35" y="836" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--85" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-649.9000000000001" y="824" as="sourcePoint" />
+            <mxPoint x="-0.9000000000005457" y="824" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--86" value="App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-573.95" y="776" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--87" value="App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-406.59000000000003" y="776" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--88" value="App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-244.90000000000003" y="776" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--110" value="system services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-654.45" y="830" width="103" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--111" value="thermal core" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-542" y="1154" width="396" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="b79QnrVeS4-WYhCjMHW--129" target="b79QnrVeS4-WYhCjMHW--84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--129" value="ThermalMonitor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;" vertex="1" parent="1">
+          <mxGeometry x="-543" y="1025" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--130" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.148;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="b79QnrVeS4-WYhCjMHW--111" target="b79QnrVeS4-WYhCjMHW--129">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-664" y="1081" as="sourcePoint" />
+            <mxPoint x="-614" y="1031" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--131" value="ThermalConfig" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;" vertex="1" parent="1">
+          <mxGeometry x="-202" y="1027" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b79QnrVeS4-WYhCjMHW--132" target="b79QnrVeS4-WYhCjMHW--111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--135" value="sysfs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b79QnrVeS4-WYhCjMHW--134">
+          <mxGeometry x="-0.4889" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--132" value="ThermalCommon" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;" vertex="1" parent="1">
+          <mxGeometry x="-364.9" y="1025" width="120" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
