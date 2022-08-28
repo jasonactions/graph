@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-28T09:55:05.953Z" agent="5.0 (X11)" etag="sGqP-rhQx7708HBx7gcL" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-28T09:59:58.685Z" agent="5.0 (X11)" etag="EJ2uYl1Sy813kZFaB79f" version="20.2.7" type="github">
   <diagram id="ZUp7OmayhHO2g7F2E1sx" name="Page-1">
-    <mxGraphModel dx="2175" dy="612" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1371" dy="241" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1885,7 +1885,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b79QnrVeS4-WYhCjMHW--161" value="addThermalStatusListener / removeThermalStatusListener" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b79QnrVeS4-WYhCjMHW--159">
+        <mxCell id="b79QnrVeS4-WYhCjMHW--161" value="addThermalStatusListener r" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b79QnrVeS4-WYhCjMHW--159">
           <mxGeometry x="0.8406" y="-3" relative="1" as="geometry">
             <mxPoint x="3" y="-7" as="offset" />
           </mxGeometry>
@@ -1979,6 +1979,16 @@
         </mxCell>
         <mxCell id="b79QnrVeS4-WYhCjMHW--156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b79QnrVeS4-WYhCjMHW--155" target="b79QnrVeS4-WYhCjMHW--84">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.944;exitY=-0.009;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="b79QnrVeS4-WYhCjMHW--155">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-235.83333333333326" y="673" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b79QnrVeS4-WYhCjMHW--163" value="listener回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b79QnrVeS4-WYhCjMHW--162">
+          <mxGeometry x="-0.1988" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="b79QnrVeS4-WYhCjMHW--155" value="PowerManager" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-463.18" y="728" width="240.35" height="37" as="geometry" />
