@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-11T00:22:45.869Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Core/1.94.172.400 QQBrowser/11.1.5140.400" etag="P6TRlYFSq2HjsBz55cIF" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-11T00:25:15.487Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Core/1.94.172.400 QQBrowser/11.1.5140.400" etag="20zpxtJ7LwY3A6t0ccZU" version="20.2.7" type="github">
   <diagram id="lNH8VF2VYUELGfLcSpF1" name="第 1 页">
-    <mxGraphModel dx="1821" dy="528" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1655" dy="440" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -255,6 +255,15 @@
         </mxCell>
         <mxCell id="Wssg3fx-5MGtDCwM9fgm-87" value="L7N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="543.5" y="555" width="40" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Wssg3fx-5MGtDCwM9fgm-88" value="&lt;font color=&quot;#000000&quot;&gt;说明：&lt;br&gt;1.每个PMU图示的左侧为输入端，右侧为输出端；&lt;br&gt;2.带下划线的为每路电源的源头&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="75" y="613" width="396" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="Wssg3fx-5MGtDCwM9fgm-89" value="VBUS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="26" y="289" width="51" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Wssg3fx-5MGtDCwM9fgm-90" value="VBAT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="28" y="310" width="48" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
