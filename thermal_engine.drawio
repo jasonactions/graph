@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T00:11:51.303Z" agent="5.0 (Windows)" etag="sAqJ6gwVzNGrTIrFlnQv" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-17T15:48:14.146Z" agent="5.0 (Windows)" etag="TIvYxxXicrMutItDywll" version="20.5.3" type="github">
   <diagram id="ZUp7OmayhHO2g7F2E1sx" name="Page-1">
     <mxGraphModel dx="2078" dy="536" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2147,8 +2147,8 @@
         <mxCell id="Njz1t2tOMkC0xSzIqLE6-95" value="tm_instance_info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="eCqSuvP7XzCQFuW3cFUY-1" vertex="1">
           <mxGeometry x="505.2" y="656" width="128" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="Njz1t2tOMkC0xSzIqLE6-96" value="tm_cnt个 最多支持64" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="eCqSuvP7XzCQFuW3cFUY-1" vertex="1">
-          <mxGeometry x="49.32000000000001" y="657.75" width="121.5" height="30" as="geometry" />
+        <mxCell id="Njz1t2tOMkC0xSzIqLE6-96" value="每种算法最多支持64个section，每个section对应一个tm_instance_info" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="eCqSuvP7XzCQFuW3cFUY-1" vertex="1">
+          <mxGeometry x="7.789999999999999" y="654.5" width="153.82" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-320" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="eCqSuvP7XzCQFuW3cFUY-1" source="Njz1t2tOMkC0xSzIqLE6-97" target="Njz1t2tOMkC0xSzIqLE6-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
