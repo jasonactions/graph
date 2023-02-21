@@ -1,80 +1,149 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T03:39:05.950Z" agent="5.0 (X11)" etag="Dh74PZQXQxkvNPd6sYm0" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-21T05:01:44.222Z" agent="5.0 (X11)" etag="JZGtnrvk6UKwh5tYx4RJ" version="20.8.20" type="github">
   <diagram name="第 1 页" id="LOrS9Zu_VuIdK76nyXHI">
-    <mxGraphModel dx="778" dy="1613" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1135" dy="1817" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BJxtmZE1OANIkkmbHClj-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="295" width="498" height="95" as="geometry" />
+        <mxCell id="BJxtmZE1OANIkkmbHClj-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="550" y="295" width="425" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BJxtmZE1OANIkkmbHClj-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="90" y="295" width="443" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="126" y="-179" width="445" height="123" as="geometry" />
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="105" y="25" width="487" height="135" as="geometry" />
+        <mxCell id="BJxtmZE1OANIkkmbHClj-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="83.5" y="444" width="487" height="166" as="geometry" />
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-8" value="&lt;div&gt;perf-hal目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;&lt;div&gt;libperfgluelayer.so&lt;/div&gt;&lt;div&gt;libperfconfig.so&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="123" y="95" width="120" height="60" as="geometry" />
+        <mxCell id="BJxtmZE1OANIkkmbHClj-13" value="perf-core目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="285.5" y="440" width="77" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-9" value="&lt;div&gt;mp-ctl目录&lt;/div&gt;&lt;div&gt;----------------&lt;br&gt;&lt;/div&gt;&lt;div&gt;libqti-perfd.so&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="123" y="42" width="120" height="43" as="geometry" />
-        </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-10" value="&lt;div&gt;mp-ctl-client目录&lt;/div&gt;&lt;div&gt;--------------------&lt;br&gt;&lt;/div&gt;&lt;div&gt;libqti-perfd-client.so&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="104.5" width="120" height="41" as="geometry" />
-        </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-11" value="&lt;div&gt;perf-util目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;libqti-util.so" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="288.5" y="75" width="120" height="43" as="geometry" />
-        </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-13" value="perf-core目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="307" y="21" width="77" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-14" value="&lt;div&gt;io-p目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;libqti-iopd.so" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BJxtmZE1OANIkkmbHClj-14" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;io-p目录&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;-------------------------&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;libqti-iopd.so" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="141" y="-162" width="120" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-15" value="&lt;div&gt;io-p-client目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;libqti-iopd-client.so" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BJxtmZE1OANIkkmbHClj-15" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;io-p-client目录&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;-------------------------&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;libqti-iopd-client.so" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="289.75" y="-160" width="120" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-16" value="&lt;div&gt;iop-hal目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;vendor.qti.hardware.iop@2.0-service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BJxtmZE1OANIkkmbHClj-16" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;iop-hal目录&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;-------------------------&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;vendor.qti.hardware.iop@2.0-service" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="141" y="-111" width="199" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-17" value="&lt;div&gt;learning-module目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;lmtests" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BJxtmZE1OANIkkmbHClj-17" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;learning-module目录&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;-------------------------&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;lmtests" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="438" y="-111" width="120" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-18" value="&lt;div&gt;qape-oem-plugin目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;libqape_oem_ext.so" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BJxtmZE1OANIkkmbHClj-18" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;qape-oem-plugin目录&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;-------------------------&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;libqape_oem_ext.so" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="438" y="-162" width="120" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-20" value="android-perf目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BJxtmZE1OANIkkmbHClj-20" value="android-perf目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="303.5" y="-179" width="92.5" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-21" value="&lt;div&gt;ioctl目录&lt;/div&gt;&lt;div&gt;--------------------&lt;/div&gt;&lt;div&gt;libperfioctl.so&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="44" width="120" height="41" as="geometry" />
+        <mxCell id="BJxtmZE1OANIkkmbHClj-23" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="102" y="322" width="120" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-23" value="&lt;div&gt;activity_trigger目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;/div&gt;&lt;div&gt;libqti-at.so&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="102" y="322" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-24" value="&lt;div&gt;io-p-client目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;&lt;div&gt;libqti-iopd-client_system.so&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="246" y="322" width="162" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-25" value="&lt;div&gt;UxPerfomance目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;&lt;div&gt;UxPerformance&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="457" y="322" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-28" value="commonsys/android-perf目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BJxtmZE1OANIkkmbHClj-28" value="commonsys/android-perf目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="243" y="292" width="168" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="87" y="464" width="498" height="95" as="geometry" />
+        <mxCell id="BJxtmZE1OANIkkmbHClj-30" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="562" y="319" width="142" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-30" value="&lt;div&gt;mp-ctl-client目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;/div&gt;&lt;div&gt;libqti-at.so&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="99" y="491" width="120" height="60" as="geometry" />
+        <mxCell id="BJxtmZE1OANIkkmbHClj-31" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="716" y="319" width="148" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-31" value="&lt;div&gt;perfservice目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;&lt;div&gt;libqti-iopd-client_system.so&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="243" y="491" width="162" height="60" as="geometry" />
+        <mxCell id="BJxtmZE1OANIkkmbHClj-32" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="869" y="317" width="98" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-32" value="&lt;div&gt;QPerformance目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;&lt;div&gt;QPerformance&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="454" y="491" width="120" height="60" as="geometry" />
+        <mxCell id="BJxtmZE1OANIkkmbHClj-33" value="commonsys/perf-core目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="677" y="289" width="168" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-33" value="commonsys/perf-core目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="461" width="168" height="30" as="geometry" />
+        <mxCell id="BJxtmZE1OANIkkmbHClj-34" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;QPerformance目录&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="873" y="314" width="90" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-37" value="libqti-perfd-client_system.so" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="566" y="340" width="134" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-38" value="mp-ctl-client目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="599" y="314" width="78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-39" value="perfservice目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="757" y="314" width="74.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-42" value="perfservice" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="719" y="339" width="138" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-43" value="QPerformance" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="873.5" y="341" width="89" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-45" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;activity_trigger目录&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="115" y="317" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-47" value="libqti-at.so" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="106" y="341.5" width="110" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-49" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="243" y="324.5" width="134" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-50" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;io-p-client目录&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="268" y="319.5" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-51" value="libqti-iopd-client_system.so" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="247" y="344" width="126" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-52" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="391" y="324" width="120" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-53" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;UxPerfomance目录&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="404" y="319" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-54" value="UxPerformance" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="395" y="343.5" width="110" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-55" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="98.5" y="461.5" width="120" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-56" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;mp-ctl目录&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="111.5" y="456.5" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-57" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;libqti-perfd.so&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="481" width="110" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-58" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="406" y="459" width="120" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-59" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;ioctl目录&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="419" y="454" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-60" value="libperfioctl.so" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="410" y="478.5" width="110" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-61" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="98.5" y="525" width="120" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-62" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;perf-hal目录&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="111.5" y="520" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-63" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;libperfgluelayer.so&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="544.5" width="87.5" height="20.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-64" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="251.5" y="501.5" width="120" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-65" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;perf-util目录&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="264.5" y="496.5" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-66" value="libqti-util.so" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="255.5" y="517" width="110" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-67" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="406" y="525" width="120" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-68" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;mp-ctl-client目录&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="419" y="520" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-69" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;libqti-perfd-client.so&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="410" y="544.5" width="110" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-70" value="libperfconfig.so" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="103" y="570.5" width="87.5" height="20.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
