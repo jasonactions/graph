@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T07:29:11.118Z" agent="5.0 (X11)" etag="BVu2VR5dQhFqEMtV1LyY" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-21T07:42:45.604Z" agent="5.0 (X11)" etag="AefYLZIAz65bBqQpTlq_" version="20.8.20" type="github">
   <diagram name="第 1 页" id="LOrS9Zu_VuIdK76nyXHI">
     <mxGraphModel dx="1335" dy="1817" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="BJxtmZE1OANIkkmbHClj-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="242" y="326" width="484" height="86" as="geometry" />
+          <mxGeometry x="155" y="326" width="664" height="104" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="313" y="131" width="443" height="90" as="geometry" />
@@ -44,34 +44,34 @@
           <mxGeometry x="466" y="128" width="168" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-30" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="254" y="350" width="142" height="50" as="geometry" />
+          <mxGeometry x="167" y="350" width="142" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-31" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="408" y="350" width="148" height="50" as="geometry" />
+          <mxGeometry x="321" y="350" width="148" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-32" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="561" y="348" width="153" height="55" as="geometry" />
+          <mxGeometry x="474" y="348" width="310" height="73" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-33" value="commonsys/perf-core目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="369" y="320" width="168" height="30" as="geometry" />
+          <mxGeometry x="282" y="320" width="168" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-34" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;QPerformance目录&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="565" y="345" width="90" height="32" as="geometry" />
+          <mxGeometry x="553" y="345" width="90" height="32" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-37" value="libqti-perfd-client_system.so" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="258" y="371" width="134" height="21" as="geometry" />
+          <mxGeometry x="171" y="371" width="134" height="21" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-38" value="mp-ctl-client目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="291" y="345" width="78" height="30" as="geometry" />
+          <mxGeometry x="204" y="345" width="78" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-39" value="perfservice目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="449" y="345" width="74.5" height="30" as="geometry" />
+          <mxGeometry x="362" y="345" width="74.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-42" value="perfservice" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="411" y="370" width="138" height="21" as="geometry" />
+          <mxGeometry x="324" y="370" width="138" height="21" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-43" value="QPerformance.jar" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="565.5" y="372" width="89" height="20" as="geometry" />
+          <mxGeometry x="478.5" y="389" width="89" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-45" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;activity_trigger目录&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="338" y="153" width="89" height="30" as="geometry" />
@@ -80,22 +80,22 @@
           <mxGeometry x="329" y="177.5" width="110" height="21" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-49" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="466" y="160.5" width="134" height="47" as="geometry" />
+          <mxGeometry x="608" y="163" width="134" height="47" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-50" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;io-p-client目录&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="491" y="155.5" width="89" height="30" as="geometry" />
+          <mxGeometry x="633" y="158" width="89" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-51" value="libqti-iopd-client_system.so" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="470" y="180" width="126" height="21" as="geometry" />
+          <mxGeometry x="612" y="182.5" width="126" height="21" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-52" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="614" y="160" width="120" height="47" as="geometry" />
+          <mxGeometry x="469" y="160.5" width="120" height="47" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-53" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;UxPerfomance目录&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="627" y="155" width="89" height="30" as="geometry" />
+          <mxGeometry x="482" y="155.5" width="89" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-54" value="UxPerformance.jar" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="618" y="179.5" width="110" height="21" as="geometry" />
+          <mxGeometry x="473" y="180" width="110" height="21" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-55" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="77" y="557.5" width="120" height="47" as="geometry" />
@@ -265,7 +265,7 @@
             <mxPoint x="955" y="265" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-108" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BJxtmZE1OANIkkmbHClj-51">
+        <mxCell id="BJxtmZE1OANIkkmbHClj-108" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.943;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BJxtmZE1OANIkkmbHClj-51" target="BJxtmZE1OANIkkmbHClj-98">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="875" y="321" as="sourcePoint" />
             <mxPoint x="715" y="473" as="targetPoint" />
@@ -283,8 +283,20 @@
             <mxPoint x="211" y="199" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-111" value="jni目录" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="657" y="372" width="49" height="20" as="geometry" />
+        <mxCell id="BJxtmZE1OANIkkmbHClj-111" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="613" y="371" width="132" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-113" value="jni目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="653.5" y="370" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-115" value="libqti_performance.so" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="619" y="385" width="120" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-117" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJxtmZE1OANIkkmbHClj-43" target="BJxtmZE1OANIkkmbHClj-115">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="117" y="305" as="sourcePoint" />
+            <mxPoint x="167" y="255" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
