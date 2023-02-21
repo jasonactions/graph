@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T06:57:31.691Z" agent="5.0 (X11)" etag="kWZ6EZIdZKQXn8kov3t7" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-21T07:03:41.881Z" agent="5.0 (X11)" etag="vZFytvcKYRLrRGUQRhMA" version="20.8.20" type="github">
   <diagram name="第 1 页" id="LOrS9Zu_VuIdK76nyXHI">
     <mxGraphModel dx="1335" dy="1817" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="BJxtmZE1OANIkkmbHClj-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="550" y="295" width="425" height="90" as="geometry" />
+          <mxGeometry x="317.5" y="283" width="425" height="90" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="90" y="295" width="443" height="90" as="geometry" />
+          <mxGeometry x="585.5" y="120" width="443" height="90" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="126" y="-179" width="445" height="123" as="geometry" />
@@ -38,64 +38,64 @@
           <mxGeometry x="303.5" y="-179" width="92.5" height="21" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-23" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="102" y="322" width="120" height="47" as="geometry" />
+          <mxGeometry x="597.5" y="147" width="120" height="47" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-28" value="commonsys/android-perf目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="243" y="292" width="168" height="30" as="geometry" />
+          <mxGeometry x="738.5" y="117" width="168" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-30" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="562" y="319" width="142" height="50" as="geometry" />
+          <mxGeometry x="329.5" y="307" width="142" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-31" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="716" y="319" width="148" height="50" as="geometry" />
+          <mxGeometry x="483.5" y="307" width="148" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-32" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="869" y="317" width="98" height="53" as="geometry" />
+          <mxGeometry x="636.5" y="305" width="98" height="53" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-33" value="commonsys/perf-core目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="677" y="289" width="168" height="30" as="geometry" />
+          <mxGeometry x="444.5" y="277" width="168" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-34" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;QPerformance目录&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="873" y="314" width="90" height="32" as="geometry" />
+          <mxGeometry x="640.5" y="302" width="90" height="32" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-37" value="libqti-perfd-client_system.so" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="566" y="340" width="134" height="21" as="geometry" />
+          <mxGeometry x="333.5" y="328" width="134" height="21" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-38" value="mp-ctl-client目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="599" y="314" width="78" height="30" as="geometry" />
+          <mxGeometry x="366.5" y="302" width="78" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-39" value="perfservice目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="757" y="314" width="74.5" height="30" as="geometry" />
+          <mxGeometry x="524.5" y="302" width="74.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-42" value="perfservice" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="719" y="339" width="138" height="21" as="geometry" />
+          <mxGeometry x="486.5" y="327" width="138" height="21" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-43" value="QPerformance" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="873.5" y="341" width="89" height="22" as="geometry" />
+          <mxGeometry x="641" y="329" width="89" height="22" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-45" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;activity_trigger目录&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="115" y="317" width="89" height="30" as="geometry" />
+          <mxGeometry x="610.5" y="142" width="89" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-47" value="libqti-at.so" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="106" y="341.5" width="110" height="21" as="geometry" />
+          <mxGeometry x="601.5" y="166.5" width="110" height="21" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-49" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="243" y="324.5" width="134" height="47" as="geometry" />
+          <mxGeometry x="738.5" y="149.5" width="134" height="47" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-50" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;io-p-client目录&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="268" y="319.5" width="89" height="30" as="geometry" />
+          <mxGeometry x="763.5" y="144.5" width="89" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-51" value="libqti-iopd-client_system.so" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="247" y="344" width="126" height="21" as="geometry" />
+          <mxGeometry x="742.5" y="169" width="126" height="21" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-52" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="391" y="324" width="120" height="47" as="geometry" />
+          <mxGeometry x="886.5" y="149" width="120" height="47" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-53" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;UxPerfomance目录&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="404" y="319" width="89" height="30" as="geometry" />
+          <mxGeometry x="899.5" y="144" width="89" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-54" value="UxPerformance" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="395" y="343.5" width="110" height="21" as="geometry" />
+        <mxCell id="BJxtmZE1OANIkkmbHClj-54" value="UxPerformance.jar" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="890.5" y="168.5" width="110" height="21" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-55" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="77" y="557.5" width="120" height="47" as="geometry" />
@@ -205,7 +205,7 @@
         <mxCell id="BJxtmZE1OANIkkmbHClj-90" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;qape-oem-plugin目录&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="746" y="592.5" width="103" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BJxtmZE1OANIkkmbHClj-91" value="libqti-util.so" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="BJxtmZE1OANIkkmbHClj-91" value="libqape_oem_ext.so" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="742" y="613" width="110" height="21" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-92" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
@@ -251,6 +251,24 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="204" y="796" as="sourcePoint" />
             <mxPoint x="364" y="796" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-106" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJxtmZE1OANIkkmbHClj-47" target="BJxtmZE1OANIkkmbHClj-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="434" y="176" as="sourcePoint" />
+            <mxPoint x="484" y="126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-107" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJxtmZE1OANIkkmbHClj-51" target="BJxtmZE1OANIkkmbHClj-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="905" y="277" as="sourcePoint" />
+            <mxPoint x="955" y="227" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-108" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJxtmZE1OANIkkmbHClj-51" target="BJxtmZE1OANIkkmbHClj-98">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="875" y="321" as="sourcePoint" />
+            <mxPoint x="925" y="271" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
