@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T03:28:00.143Z" agent="5.0 (X11)" etag="jLjjL_Cxn_cwR7NltgB9" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-21T03:39:05.950Z" agent="5.0 (X11)" etag="Dh74PZQXQxkvNPd6sYm0" version="20.8.20" type="github">
   <diagram name="第 1 页" id="LOrS9Zu_VuIdK76nyXHI">
-    <mxGraphModel dx="778" dy="444" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="778" dy="1613" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BJxtmZE1OANIkkmbHClj-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="295" width="498" height="95" as="geometry" />
+        </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="102" y="188" width="445" height="123" as="geometry" />
+          <mxGeometry x="126" y="-179" width="445" height="123" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="105" y="25" width="487" height="135" as="geometry" />
@@ -17,34 +20,61 @@
           <mxGeometry x="123" y="42" width="120" height="43" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-10" value="&lt;div&gt;mp-ctl-client目录&lt;/div&gt;&lt;div&gt;--------------------&lt;br&gt;&lt;/div&gt;&lt;div&gt;libqti-perfd-client.so&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="288" y="42" width="120" height="41" as="geometry" />
+          <mxGeometry x="440" y="104.5" width="120" height="41" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-11" value="&lt;div&gt;perf-util目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;libqti-util.so" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="286" y="100" width="120" height="43" as="geometry" />
+          <mxGeometry x="288.5" y="75" width="120" height="43" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-13" value="perf-core目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="227" y="19" width="77" height="30" as="geometry" />
+          <mxGeometry x="307" y="21" width="77" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-14" value="&lt;div&gt;io-p目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;libqti-iopd.so" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="117" y="205" width="120" height="43" as="geometry" />
+          <mxGeometry x="141" y="-162" width="120" height="43" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-15" value="&lt;div&gt;io-p-client目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;libqti-iopd-client.so" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265.75" y="207" width="120" height="43" as="geometry" />
+          <mxGeometry x="289.75" y="-160" width="120" height="43" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-16" value="&lt;div&gt;iop-hal目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;vendor.qti.hardware.iop@2.0-service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="117" y="256" width="199" height="43" as="geometry" />
+          <mxGeometry x="141" y="-111" width="199" height="43" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-17" value="&lt;div&gt;learning-module目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;lmtests" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="256" width="120" height="43" as="geometry" />
+          <mxGeometry x="438" y="-111" width="120" height="43" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-18" value="&lt;div&gt;qape-oem-plugin目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;libqape_oem_ext.so" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="205" width="120" height="43" as="geometry" />
+          <mxGeometry x="438" y="-162" width="120" height="43" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-20" value="android-perf目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="279.5" y="188" width="92.5" height="21" as="geometry" />
+          <mxGeometry x="303.5" y="-179" width="92.5" height="21" as="geometry" />
         </mxCell>
         <mxCell id="BJxtmZE1OANIkkmbHClj-21" value="&lt;div&gt;ioctl目录&lt;/div&gt;&lt;div&gt;--------------------&lt;/div&gt;&lt;div&gt;libperfioctl.so&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="44" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-23" value="&lt;div&gt;activity_trigger目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;/div&gt;&lt;div&gt;libqti-at.so&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="102" y="322" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-24" value="&lt;div&gt;io-p-client目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;&lt;div&gt;libqti-iopd-client_system.so&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="246" y="322" width="162" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-25" value="&lt;div&gt;UxPerfomance目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;&lt;div&gt;UxPerformance&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="457" y="322" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-28" value="commonsys/android-perf目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="243" y="292" width="168" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="87" y="464" width="498" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-30" value="&lt;div&gt;mp-ctl-client目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;/div&gt;&lt;div&gt;libqti-at.so&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99" y="491" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-31" value="&lt;div&gt;perfservice目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;&lt;div&gt;libqti-iopd-client_system.so&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="243" y="491" width="162" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-32" value="&lt;div&gt;QPerformance目录&lt;/div&gt;&lt;div&gt;-------------------------&lt;br&gt;&lt;/div&gt;&lt;div&gt;QPerformance&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="454" y="491" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BJxtmZE1OANIkkmbHClj-33" value="commonsys/perf-core目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="461" width="168" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
