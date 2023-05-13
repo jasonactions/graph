@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-13T09:08:43.643Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0" etag="iIO-Pr2ViXMUfcqWOOfV" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-13T09:09:01.004Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0" etag="9k9b61sR_S4SgTnPznp5" version="21.2.3" type="github">
   <diagram name="第 1 页" id="LOrS9Zu_VuIdK76nyXHI">
     <mxGraphModel dx="1238" dy="1875" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -412,7 +412,7 @@
         <mxCell id="4ueyB9Q912uNRuG1QaPG-127" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;mp-ctl目录&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="79" y="1555.24" width="89" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4ueyB9Q912uNRuG1QaPG-128" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;libqti-perfd.so&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="4ueyB9Q912uNRuG1QaPG-128" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;libqti-perfd.so&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="70" y="1579.74" width="110" height="21" as="geometry" />
         </mxCell>
         <mxCell id="4ueyB9Q912uNRuG1QaPG-129" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
@@ -448,7 +448,7 @@
         <mxCell id="4ueyB9Q912uNRuG1QaPG-139" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;mp-ctl-client目录&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="405" y="1555.24" width="89" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4ueyB9Q912uNRuG1QaPG-140" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;libqti-perfd-client.so&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="4ueyB9Q912uNRuG1QaPG-140" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;libqti-perfd-client.so&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="396" y="1579.74" width="110" height="21" as="geometry" />
         </mxCell>
         <mxCell id="4ueyB9Q912uNRuG1QaPG-141" value="libperfconfig.so" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -457,7 +457,7 @@
         <mxCell id="4ueyB9Q912uNRuG1QaPG-142" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;interfaces/perf/2.3目录&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="225" y="1448.74" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4ueyB9Q912uNRuG1QaPG-143" value="vendor.qti.hardware.perf@2.3" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="4ueyB9Q912uNRuG1QaPG-143" value="vendor.qti.hardware.perf@2.3" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="214.5" y="1473.24" width="145" height="21" as="geometry" />
         </mxCell>
         <mxCell id="4ueyB9Q912uNRuG1QaPG-144" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" source="4ueyB9Q912uNRuG1QaPG-128" target="4ueyB9Q912uNRuG1QaPG-143" parent="1">
@@ -561,7 +561,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ueyB9Q912uNRuG1QaPG-171" value="vendor.qti.hardware.perf-hal-service" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="4ueyB9Q912uNRuG1QaPG-171" value="vendor.qti.hardware.perf-hal-service" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="60" y="1643.24" width="146" height="20.5" as="geometry" />
         </mxCell>
         <mxCell id="4ueyB9Q912uNRuG1QaPG-172" value="realize" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="4ueyB9Q912uNRuG1QaPG-158" target="4ueyB9Q912uNRuG1QaPG-166" parent="1">
