@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-16T01:57:24.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="R430EAfTkFpY009nd8OC" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-16T02:07:23.419Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="j4CkZ3tZGwjG8xf7WTw2" version="21.6.2" type="github">
   <diagram id="ZUp7OmayhHO2g7F2E1sx" name="Page-1">
     <mxGraphModel dx="1850" dy="1349" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -743,8 +743,8 @@
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-154" value="main" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-4.559999999999988" y="5928" width="107.4" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="Frr9vzhRiaKBkHXC4kWm-155" value="各种算法配置，并启动线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="69.99999999999994" y="6344" width="153" height="25" as="geometry" />
+        <mxCell id="Frr9vzhRiaKBkHXC4kWm-155" value="各种算法初始化，并启动线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="70" y="6344" width="159" height="25" as="geometry" />
         </mxCell>
         <mxCell id="Frr9vzhRiaKBkHXC4kWm-156" value="thermal_server_init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="78.49999999999999" y="6286" width="120" height="25" as="geometry" />
