@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T13:42:56.730Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ggpEN4cVoQeBreLQby5A" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T12:35:57.711Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="tsi-ckRuqfY7TMg45WpV" version="22.1.18" type="github">
   <diagram name="第 1 页" id="1sTqLYYf4km9OQXEMfxo">
     <mxGraphModel dx="1434" dy="912" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -367,9 +367,6 @@
         <mxCell id="Ngx6iaga4DdsrcoKr7fE-20" value="CGROUP_SUBSYS_COUNT" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="314" y="-250" width="152.5" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Ngx6iaga4DdsrcoKr7fE-21" value="&lt;h1&gt;说明：&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-116" y="306" width="870" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="Ngx6iaga4DdsrcoKr7fE-24" value="cgroup_subsys" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="-309" width="84" height="26" as="geometry" />
         </mxCell>
@@ -421,6 +418,9 @@
         </mxCell>
         <mxCell id="Ngx6iaga4DdsrcoKr7fE-47" value="cgroup_root" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="653.9100000000001" y="-154" width="80" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="Ngx6iaga4DdsrcoKr7fE-55" value="1. 内核使用 cgroup 结构体来表示对某一个或者某几个 cgroups 子系统的资源限制&lt;br&gt;2. cgroup 结构体可以组织成一颗树的形式，每一棵cgroup 结构体组成的树称之为一个 cgroups 层级结构&lt;br&gt;3. cgroups层级结构可以 attach 一个或者几个 cgroups 子系统，当前层级结构可以对其 attach 的 cgroups 子系统进行资源的限制&lt;br&gt;4." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-91" y="428" width="723" height="86" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
