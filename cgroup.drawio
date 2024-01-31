@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T12:35:57.711Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="tsi-ckRuqfY7TMg45WpV" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T12:59:35.128Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="pDGcv1MWG8vElSjwEXG4" version="22.1.18" type="github">
   <diagram name="第 1 页" id="1sTqLYYf4km9OQXEMfxo">
     <mxGraphModel dx="1434" dy="912" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -419,8 +419,8 @@
         <mxCell id="Ngx6iaga4DdsrcoKr7fE-47" value="cgroup_root" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="653.9100000000001" y="-154" width="80" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="Ngx6iaga4DdsrcoKr7fE-55" value="1. 内核使用 cgroup 结构体来表示对某一个或者某几个 cgroups 子系统的资源限制&lt;br&gt;2. cgroup 结构体可以组织成一颗树的形式，每一棵cgroup 结构体组成的树称之为一个 cgroups 层级结构&lt;br&gt;3. cgroups层级结构可以 attach 一个或者几个 cgroups 子系统，当前层级结构可以对其 attach 的 cgroups 子系统进行资源的限制&lt;br&gt;4." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-91" y="428" width="723" height="86" as="geometry" />
+        <mxCell id="Ngx6iaga4DdsrcoKr7fE-55" value="1. 内核使用 cgroup 结构体来表示对某一个或者某几个 cgroups 子系统的资源限制&lt;br&gt;2. cgroup 结构体可以组织成一颗树的形式，每一棵cgroup 结构体组成的树称之为一个 cgroups 层级结构&lt;br&gt;3. cgroups层级结构可以 attach 一个或者几个 cgroups 子系统，当前层级结构可以对其 attach 的 cgroups 子系统进行资源的限制&lt;br&gt;4. 每一个 cgroups 子系统只能被 attach 到一个 cpu 层级结构中&lt;br&gt;5. 某一个进程也可以被加入到不同的 cgroups 层级结构的节点中，因为不同的 cgroups 层级结构可以负责不同的系统资源&lt;br&gt;6. 一个进程只能隶属于一个&lt;code&gt;css_set&lt;/code&gt;，一个&lt;code&gt;css_set&lt;/code&gt;可以包含多个进程，隶属于同一&lt;code&gt;css_set&lt;/code&gt;的进程受到同一个&lt;code&gt;css_set&lt;/code&gt;所关联的资源限制&lt;br&gt;7. cgroups 的实现不允许&lt;code&gt;css_set&lt;/code&gt;同时关联同一个cgroups层级结构下多个节点，因为 cgroups 对同一种资源不允许有多个限制配置&lt;br&gt;8. 一个&lt;code&gt;css_set&lt;/code&gt;关联多个 cgroups 层级结构的节点时，表明需要对当前&lt;code&gt;css_set&lt;/code&gt;下的进程进行多种资源的控制&lt;br&gt;9. 一个 cgroups 节点关联多个&lt;code&gt;css_set&lt;/code&gt;时，表明多个&lt;code&gt;css_set&lt;/code&gt;下的进程列表受到同一份资源的相同限制。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-89" y="222" width="773" height="134" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
