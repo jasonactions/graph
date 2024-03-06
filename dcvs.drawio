@@ -1,9 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T02:35:28.548Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="24.0.0" etag="x-lZOYmLLO9Q3DeRRNTA" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-06T02:43:48.753Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="wmVJP-I0kAechuP2EYMR" version="24.0.0" type="github">
   <diagram name="第 1 页" id="vD-AmZjFXGDDAUmnvSfB">
-    <mxGraphModel>
+    <mxGraphModel dx="915" dy="853" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YWDrDgBH9ZP_5OnWIL4n-2" target="YWDrDgBH9ZP_5OnWIL4n-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-2" value="dcvs_hw *" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="64" y="-159" width="77" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YWDrDgBH9ZP_5OnWIL4n-3" target="YWDrDgBH9ZP_5OnWIL4n-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-3" value="dcvs_path *" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="65" y="-291" width="74" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-4" value="dcvs_freq" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="818" y="-254" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YWDrDgBH9ZP_5OnWIL4n-5" target="YWDrDgBH9ZP_5OnWIL4n-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-12" value="hw_devs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YWDrDgBH9ZP_5OnWIL4n-11">
+          <mxGeometry x="0.0963" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-5" value="qcom_dcvs_data" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="-80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-6" value="kobj_type" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="656" y="12" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-7" value="dcvs_hw *" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="141" y="-159" width="77" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-8" value="....." style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="218" y="-159" width="77" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-9" value="dcvs_hw *" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="295" y="-159" width="77" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YWDrDgBH9ZP_5OnWIL4n-13" target="YWDrDgBH9ZP_5OnWIL4n-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-13" value="dcvs_hw" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="64.5" y="-231" width="77" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-16" value="dcvs_path *" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="139" y="-291" width="74" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-17" value="...." style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="212" y="-291" width="74" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-18" value="dcvs_path *" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="286" y="-291" width="74" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-19" value="dcvs_path" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="65" y="-359" width="74" height="32" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
