@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T03:06:38.078Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="lpAetFkDR0FOz1RGXJVI" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T03:39:41.007Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="mj8fWYh7Xd1_lhum0b7o" version="24.0.0" type="github">
   <diagram name="第 1 页" id="vD-AmZjFXGDDAUmnvSfB">
     <mxGraphModel dx="1505" dy="1347" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -238,6 +238,45 @@
             <mxPoint x="247" y="-493" as="sourcePoint" />
             <mxPoint x="407" y="-493" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-114" value="ddrllcc_fp_data" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-132" y="483" width="279" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-115" value="struct dcvs_path&amp;nbsp; &amp;nbsp;*paths[NUM_FP_CMDS]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YWDrDgBH9ZP_5OnWIL4n-114">
+          <mxGeometry y="26" width="279" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-118" value="struct bcm_data&amp;nbsp; &amp;nbsp;cms[NUM_FP_CMDS];" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YWDrDgBH9ZP_5OnWIL4n-114">
+          <mxGeometry y="52" width="279" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-119" value="struct tcs_cmd&amp;nbsp; &amp;nbsp; &amp;nbsp;tcs_cmds[NUM_FP_CMDS]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YWDrDgBH9ZP_5OnWIL4n-114">
+          <mxGeometry y="78" width="279" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-116" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="YWDrDgBH9ZP_5OnWIL4n-114">
+          <mxGeometry y="104" width="279" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-120" value="dcvs_path" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="218" y="483" width="208" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-121" value="struct dcvs_hw&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; *hw" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YWDrDgBH9ZP_5OnWIL4n-120">
+          <mxGeometry y="26" width="208" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-122" value="struct dcvs_freq&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cur_freq" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YWDrDgBH9ZP_5OnWIL4n-120">
+          <mxGeometry y="52" width="208" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-123" value="u32&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;*percpu_cur_freqs" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YWDrDgBH9ZP_5OnWIL4n-120">
+          <mxGeometry y="78" width="208" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-125" value="struct list_head&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; voter_list" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YWDrDgBH9ZP_5OnWIL4n-120">
+          <mxGeometry y="104" width="208" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-128" value="int (*commit_dcvs_freqs)()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YWDrDgBH9ZP_5OnWIL4n-120">
+          <mxGeometry y="130" width="208" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-124" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="YWDrDgBH9ZP_5OnWIL4n-120">
+          <mxGeometry y="156" width="208" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-126" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="YWDrDgBH9ZP_5OnWIL4n-120">
+          <mxGeometry y="164" width="208" height="8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
