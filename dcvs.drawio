@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T07:19:47.929Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="brbtWcOMjlxD2DoWnS8p" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T07:23:09.424Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="tuhX4Z4wZENzkWp2Pznc" version="24.0.0" type="github">
   <diagram name="第 1 页" id="vD-AmZjFXGDDAUmnvSfB">
-    <mxGraphModel dx="1505" dy="1347" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1339" dy="1347" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -369,6 +369,14 @@
         <mxCell id="YWDrDgBH9ZP_5OnWIL4n-178" value="groups" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-23" y="1399" width="55" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-199" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="YWDrDgBH9ZP_5OnWIL4n-179" target="YWDrDgBH9ZP_5OnWIL4n-198">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-200" value="freq_map" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="YWDrDgBH9ZP_5OnWIL4n-199">
+          <mxGeometry x="-0.1007" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YWDrDgBH9ZP_5OnWIL4n-179" value="memlat_mon" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="74.5" y="1652" width="75" height="33" as="geometry" />
         </mxCell>
@@ -416,6 +424,9 @@
         </mxCell>
         <mxCell id="YWDrDgBH9ZP_5OnWIL4n-195" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="YWDrDgBH9ZP_5OnWIL4n-193">
           <mxGeometry y="78" width="196" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="YWDrDgBH9ZP_5OnWIL4n-198" value="cpufreq_memfreq_map" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="1735" width="129" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
