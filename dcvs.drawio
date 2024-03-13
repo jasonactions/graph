@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T01:02:28.728Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="J5KtX-xl716MElKmvMLL" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-13T01:08:59.043Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="OGaCI-pX4Xmg9rTTc9VV" version="24.0.0" type="github">
   <diagram name="第 1 页" id="vD-AmZjFXGDDAUmnvSfB">
     <mxGraphModel dx="2402" dy="1593" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -633,6 +633,9 @@
           <mxGeometry x="0.2611" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="rbcTsm3IMr83Z6UvLnom-26" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;div&gt;enum common_ev_idx {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; INST_IDX,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; CYC_IDX,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; FE_STALL_IDX,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; BE_STALL_IDX,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; NUM_COMMON_EVS&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-439" y="1591" width="139" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
