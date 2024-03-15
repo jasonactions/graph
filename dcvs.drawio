@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-15T06:33:34.446Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="r6lGIKlT3h9HCL0T3geE" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-15T07:09:13.995Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="WjTezWb26uVvQLHt88Rh" version="24.0.0" type="github">
   <diagram name="第 1 页" id="vD-AmZjFXGDDAUmnvSfB">
     <mxGraphModel dx="2193" dy="690" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -657,6 +657,24 @@
         </mxCell>
         <mxCell id="rbcTsm3IMr83Z6UvLnom-34" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;ib中保存了memlat_grp.fp_freq，即每个memlat group要设置的最大频率&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-124" y="1106" width="188" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="rbcTsm3IMr83Z6UvLnom-35" value="bwmon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-643" y="546" width="196" height="253" as="geometry" />
+        </mxCell>
+        <mxCell id="rbcTsm3IMr83Z6UvLnom-36" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rbcTsm3IMr83Z6UvLnom-35">
+          <mxGeometry y="26" width="196" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rbcTsm3IMr83Z6UvLnom-37" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="rbcTsm3IMr83Z6UvLnom-35">
+          <mxGeometry y="52" width="196" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="rbcTsm3IMr83Z6UvLnom-38" value="struct bw_hwmon&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;hw" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rbcTsm3IMr83Z6UvLnom-35">
+          <mxGeometry y="60" width="196" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rbcTsm3IMr83Z6UvLnom-39" value="const struct bwmon_spec *spec" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rbcTsm3IMr83Z6UvLnom-35">
+          <mxGeometry y="86" width="196" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rbcTsm3IMr83Z6UvLnom-40" value="&lt;div&gt;u32&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; hw_timer_hz;&lt;/div&gt;&lt;div&gt;u32&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;throttle_adj;&lt;/div&gt;&lt;div&gt;u32&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; sample_size_ms;&lt;/div&gt;&lt;div&gt;u32&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;intr_status;&lt;/div&gt;&lt;div&gt;u8&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; count_shift;&lt;/div&gt;&lt;div&gt;u32&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;thres_lim;&lt;/div&gt;&lt;div&gt;u32&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;byte_mask;&lt;/div&gt;&lt;div&gt;u32&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;byte_match;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rbcTsm3IMr83Z6UvLnom-35">
+          <mxGeometry y="112" width="196" height="141" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
