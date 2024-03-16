@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-16T07:25:34.548Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="IjXrQwlmMQ0Bi8yeor8w" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-16T08:00:41.922Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="tTv6UOhg4iZ80AByIJSL" version="24.0.0" type="github">
   <diagram id="tyvgVfunimGXNx_3-ZlY" name="Page-1">
-    <mxGraphModel dx="1735" dy="1461" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1535" dy="1461" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -558,10 +558,13 @@
             <mxPoint x="643" y="2683" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2un4RmnQKE5LDw7Ny9sN-22" value="buffer初始化data" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=15;" vertex="1" parent="1">
-          <mxGeometry x="443.5" y="2421" width="80" height="45" as="geometry" />
+        <mxCell id="2un4RmnQKE5LDw7Ny9sN-22" value="bwr初始化binder_io" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=15;" vertex="1" parent="1">
+          <mxGeometry x="443.5" y="2468" width="80" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="2un4RmnQKE5LDw7Ny9sN-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2un4RmnQKE5LDw7Ny9sN-12" target="Ya2bxMZqYRdEx5-_d5KD-18">
+        <mxCell id="2un4RmnQKE5LDw7Ny9sN-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="2un4RmnQKE5LDw7Ny9sN-12" target="Ya2bxMZqYRdEx5-_d5KD-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2un4RmnQKE5LDw7Ny9sN-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="2un4RmnQKE5LDw7Ny9sN-13" target="Ya2bxMZqYRdEx5-_d5KD-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
