@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T14:52:18.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Ip2SCs_-nsXsapJyHfgO" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T15:23:53.560Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="VS2NBq_2BvDC249xK5nc" version="24.2.1" type="github">
   <diagram name="第 1 页" id="01agbYeh8jdvlxJhbr0P">
     <mxGraphModel dx="1050" dy="565" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,31 +51,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DIjDcMSTwJ1lfGA5DYHn-15" value="boost_groups" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="138" y="571" width="178" height="104" as="geometry" />
+          <mxGeometry x="121" y="505" width="209" height="156" as="geometry" />
         </mxCell>
         <mxCell id="DIjDcMSTwJ1lfGA5DYHn-16" value="int boost_max" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DIjDcMSTwJ1lfGA5DYHn-15">
-          <mxGeometry y="26" width="178" height="26" as="geometry" />
+          <mxGeometry y="26" width="209" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="DIjDcMSTwJ1lfGA5DYHn-17" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DIjDcMSTwJ1lfGA5DYHn-15">
-          <mxGeometry y="52" width="178" height="26" as="geometry" />
+        <mxCell id="DIjDcMSTwJ1lfGA5DYHn-17" value="bool idle;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DIjDcMSTwJ1lfGA5DYHn-15">
+          <mxGeometry y="52" width="209" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="DIjDcMSTwJ1lfGA5DYHn-18" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DIjDcMSTwJ1lfGA5DYHn-15">
-          <mxGeometry y="78" width="178" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="DIjDcMSTwJ1lfGA5DYHn-19" value="&amp;nbsp;group[BOOSTGROUPS_COUNT]" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="136.5" y="433" width="189" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="DIjDcMSTwJ1lfGA5DYHn-20" value="int boost;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DIjDcMSTwJ1lfGA5DYHn-19">
-          <mxGeometry y="26" width="189" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="DIjDcMSTwJ1lfGA5DYHn-21" value="unsigned tasks" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DIjDcMSTwJ1lfGA5DYHn-19">
-          <mxGeometry y="52" width="189" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="DIjDcMSTwJ1lfGA5DYHn-23" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.482;entryY=1.077;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DIjDcMSTwJ1lfGA5DYHn-15" target="DIjDcMSTwJ1lfGA5DYHn-21">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="374" y="586" as="sourcePoint" />
-            <mxPoint x="534" y="586" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="DIjDcMSTwJ1lfGA5DYHn-18" value="&lt;div&gt;struct {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; int boost;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; unsigned tasks;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;} group[BOOSTGROUPS_COUNT];&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DIjDcMSTwJ1lfGA5DYHn-15">
+          <mxGeometry y="78" width="209" height="78" as="geometry" />
         </mxCell>
         <mxCell id="DIjDcMSTwJ1lfGA5DYHn-24" value="schedtune" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="478" y="513" width="178" height="156" as="geometry" />
