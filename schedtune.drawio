@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T12:14:01.794Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="FYds7cSZV1VfkJxleD-D" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-03T12:21:06.210Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="v1sLkotLVCC2ZVaEMjlO" version="24.0.7" type="github">
   <diagram name="第 1 页" id="01agbYeh8jdvlxJhbr0P">
-    <mxGraphModel dx="1928" dy="788" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1699" dy="788" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,7 +86,7 @@
         <mxCell id="DIjDcMSTwJ1lfGA5DYHn-30" value="static DEFINE_PER_CPU(struct boost_groups, cpu_boost_groups)&lt;div&gt;#define BOOSTGROUPS_COUNT 4&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="112" y="754" width="375" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="DIjDcMSTwJ1lfGA5DYHn-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" source="DIjDcMSTwJ1lfGA5DYHn-26" target="DIjDcMSTwJ1lfGA5DYHn-18" edge="1">
+        <mxCell id="DIjDcMSTwJ1lfGA5DYHn-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;" parent="1" source="DIjDcMSTwJ1lfGA5DYHn-26" target="DIjDcMSTwJ1lfGA5DYHn-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VDW7BR7wvnO6Wit2rarF-1" value="schedtune_target_nrg" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
