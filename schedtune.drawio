@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T11:21:38.112Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ssFqVnRFzk-EZ5goIafP" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-03T11:35:02.819Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="JacCyKo9I9DYK3dt_psM" version="24.0.7" type="github">
   <diagram name="第 1 页" id="01agbYeh8jdvlxJhbr0P">
-    <mxGraphModel dx="1764" dy="827" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1699" dy="788" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DIjDcMSTwJ1lfGA5DYHn-1" value="target_nrg" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="279" y="73" width="164" height="104" as="geometry" />
+          <mxGeometry x="1123" y="276" width="164" height="104" as="geometry" />
         </mxCell>
         <mxCell id="DIjDcMSTwJ1lfGA5DYHn-2" value="unsigned long min_power" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="DIjDcMSTwJ1lfGA5DYHn-1" vertex="1">
           <mxGeometry y="26" width="164" height="26" as="geometry" />
@@ -90,7 +90,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VDW7BR7wvnO6Wit2rarF-1" value="schedtune_target_nrg" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="289" y="177" width="151" height="35" as="geometry" />
+          <mxGeometry x="1133" y="380" width="151" height="35" as="geometry" />
         </mxCell>
         <mxCell id="VDW7BR7wvnO6Wit2rarF-11" value="sched_group_capacity" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="635" y="387" width="167" height="104" as="geometry" />
@@ -157,7 +157,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VDW7BR7wvnO6Wit2rarF-37" value="DEFINE_PER_CPU(struct sched_domain *, sd_ea);" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-5" y="380" width="308" height="42" as="geometry" />
+          <mxGeometry x="-8" y="386" width="308" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="VDW7BR7wvnO6Wit2rarF-52" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="DIjDcMSTwJ1lfGA5DYHn-2" target="VDW7BR7wvnO6Wit2rarF-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VDW7BR7wvnO6Wit2rarF-53" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="DIjDcMSTwJ1lfGA5DYHn-3" target="VDW7BR7wvnO6Wit2rarF-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
