@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-04T13:22:59.071Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="qsRQl25QEvXQEffI5wnI" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-04T13:27:48.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="wBnQyri55E-OUYWu_DM-" version="24.2.1" type="github">
   <diagram name="第 1 页" id="01agbYeh8jdvlxJhbr0P">
-    <mxGraphModel dx="1518" dy="1065" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="965" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
           <mxGeometry y="104" width="170" height="26" as="geometry" />
         </mxCell>
         <mxCell id="DIjDcMSTwJ1lfGA5DYHn-9" value="sched_group" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="338" y="-33" width="223" height="104" as="geometry" />
+          <mxGeometry x="374" y="-33" width="223" height="104" as="geometry" />
         </mxCell>
         <mxCell id="DIjDcMSTwJ1lfGA5DYHn-10" value="const struct sched_group_energy *sge" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="DIjDcMSTwJ1lfGA5DYHn-9" vertex="1">
           <mxGeometry y="26" width="223" height="26" as="geometry" />
@@ -220,6 +220,27 @@
         <mxCell id="XPc6dLiuJMic1bVL03bc-18" value="*sd" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XPc6dLiuJMic1bVL03bc-17">
           <mxGeometry x="-0.051" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XPc6dLiuJMic1bVL03bc-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.177;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" edge="1" parent="1" source="XPc6dLiuJMic1bVL03bc-7" target="DIjDcMSTwJ1lfGA5DYHn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPc6dLiuJMic1bVL03bc-21" value="*sg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XPc6dLiuJMic1bVL03bc-20">
+          <mxGeometry x="0.1904" y="1" relative="1" as="geometry">
+            <mxPoint x="-6" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XPc6dLiuJMic1bVL03bc-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.184;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XPc6dLiuJMic1bVL03bc-8" target="VDW7BR7wvnO6Wit2rarF-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="213" />
+              <mxPoint x="380" y="94" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XPc6dLiuJMic1bVL03bc-23" value="*sgc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XPc6dLiuJMic1bVL03bc-22">
+          <mxGeometry x="0.0776" y="4" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
