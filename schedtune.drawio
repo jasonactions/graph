@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-04T14:45:28.389Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="BbJAD3hNR1ka9XXVgdWr" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-04T14:56:03.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Xi7DLFANGnNdurBbx0N8" version="24.2.1" type="github">
   <diagram name="第 1 页" id="01agbYeh8jdvlxJhbr0P">
     <mxGraphModel dx="1918" dy="1105" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -253,6 +253,15 @@
         </mxCell>
         <mxCell id="XPc6dLiuJMic1bVL03bc-25" value="&lt;div&gt;每个调度域层级为每个active cpu都会分配一个&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;sched_group_capacity&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="385" y="102" width="242" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="XPc6dLiuJMic1bVL03bc-28" value="root_domain" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="484" y="338" width="257" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="XPc6dLiuJMic1bVL03bc-29" value="struct max_cpu_capacity max_cpu_capacity" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XPc6dLiuJMic1bVL03bc-28">
+          <mxGeometry y="26" width="257" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XPc6dLiuJMic1bVL03bc-30" value="int max_cap_orig_cpu, min_cap_orig_cpu" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XPc6dLiuJMic1bVL03bc-28">
+          <mxGeometry y="52" width="257" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
