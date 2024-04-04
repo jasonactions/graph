@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-04T14:32:01.368Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="biIh5I4LmB6mgWrYkt5E" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-04T14:45:28.389Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="BbJAD3hNR1ka9XXVgdWr" version="24.2.1" type="github">
   <diagram name="第 1 页" id="01agbYeh8jdvlxJhbr0P">
-    <mxGraphModel dx="1475" dy="899" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1918" dy="1105" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,8 +156,8 @@
         <mxCell id="VDW7BR7wvnO6Wit2rarF-34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.17;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" parent="1" source="VDW7BR7wvnO6Wit2rarF-22" target="VDW7BR7wvnO6Wit2rarF-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VDW7BR7wvnO6Wit2rarF-37" value="&lt;div&gt;每个调度域层级为每个active cpu都会对应一个sched_domain&lt;/div&gt;DEFINE_PER_CPU(struct sched_domain *, sd_ea);" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
-          <mxGeometry x="58" y="28" width="286" height="42" as="geometry" />
+        <mxCell id="VDW7BR7wvnO6Wit2rarF-37" value="&lt;div&gt;每个调度域层级为每个active cpu都会分配一个sched_domain&lt;/div&gt;DEFINE_PER_CPU(struct sched_domain *, sd_ea);" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-158" y="-14" width="286" height="42" as="geometry" />
         </mxCell>
         <mxCell id="VDW7BR7wvnO6Wit2rarF-54" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;" parent="1" source="VDW7BR7wvnO6Wit2rarF-26" target="DIjDcMSTwJ1lfGA5DYHn-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -232,7 +232,7 @@
         </mxCell>
         <mxCell id="XPc6dLiuJMic1bVL03bc-21" value="*sg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XPc6dLiuJMic1bVL03bc-20">
           <mxGeometry x="0.1904" y="1" relative="1" as="geometry">
-            <mxPoint x="-6" y="-19" as="offset" />
+            <mxPoint x="-6" y="-32" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XPc6dLiuJMic1bVL03bc-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.184;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XPc6dLiuJMic1bVL03bc-8" target="VDW7BR7wvnO6Wit2rarF-11">
@@ -245,14 +245,14 @@
         </mxCell>
         <mxCell id="XPc6dLiuJMic1bVL03bc-23" value="*sgc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XPc6dLiuJMic1bVL03bc-22">
           <mxGeometry x="0.0776" y="4" relative="1" as="geometry">
-            <mxPoint y="5" as="offset" />
+            <mxPoint x="-23" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XPc6dLiuJMic1bVL03bc-24" value="&lt;div&gt;每个调度域层级为每个active cpu都会对应一个sched_group&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="390" y="7" width="242" height="42" as="geometry" />
+        <mxCell id="XPc6dLiuJMic1bVL03bc-24" value="&lt;div&gt;每个调度域层级为每个active cpu都会分配一个sched_group&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="255" y="28" width="242" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="XPc6dLiuJMic1bVL03bc-25" value="&lt;div&gt;每个调度域层级为每个active cpu都会对应一个&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;sched_group_capacity&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="637" y="184" width="242" height="42" as="geometry" />
+        <mxCell id="XPc6dLiuJMic1bVL03bc-25" value="&lt;div&gt;每个调度域层级为每个active cpu都会分配一个&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;sched_group_capacity&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="385" y="102" width="242" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
