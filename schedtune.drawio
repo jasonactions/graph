@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T14:43:04.335Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="MMB-WBSaMSg-2jblxuyG" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-17T14:48:37.062Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="h6YS2Coy3ZaZOj5W1UGa" version="24.2.2" type="github">
   <diagram name="第 1 页" id="01agbYeh8jdvlxJhbr0P">
     <mxGraphModel dx="1918" dy="1065" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -316,19 +316,19 @@
           <mxGeometry x="121" y="1266" width="250" height="97" as="geometry" />
         </mxCell>
         <mxCell id="_Hb8ZXm0ojiE5atUSY3U-34" value="tune_c" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="245" y="1560" width="110" height="29" as="geometry" />
+          <mxGeometry x="253" y="1425" width="110" height="29" as="geometry" />
         </mxCell>
         <mxCell id="_Hb8ZXm0ojiE5atUSY3U-35" value="schedtune" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="112" y="1527" width="524" height="80" as="geometry" />
+          <mxGeometry x="120" y="1392" width="520" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_Hb8ZXm0ojiE5atUSY3U-36" value="sysctl_c" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="266" y="1309" width="80" height="35" as="geometry" />
         </mxCell>
         <mxCell id="_Hb8ZXm0ojiE5atUSY3U-37" value="cfs scheduler" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=84;height=33;" vertex="1" parent="1">
-          <mxGeometry x="116" y="1404" width="521" height="82" as="geometry" />
+          <mxGeometry x="118" y="1507" width="521" height="82" as="geometry" />
         </mxCell>
         <mxCell id="_Hb8ZXm0ojiE5atUSY3U-38" value="fair_c" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="254" y="1435" width="110" height="34" as="geometry" />
+          <mxGeometry x="256" y="1538" width="110" height="34" as="geometry" />
         </mxCell>
         <mxCell id="_Hb8ZXm0ojiE5atUSY3U-39" value="对于某个schedtune cgroup组，它会在每个cpu的boost_groups中都有一个group，且索引相同" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="731" y="623" width="187" height="90" as="geometry" />
@@ -339,8 +339,11 @@
         <mxCell id="A_hGb6IycUGF6rzQosvp-2" value="cpufreq_schedutil_c" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="241" y="1682" width="110" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="_Hb8ZXm0ojiE5atUSY3U-41" value="sysfs" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+        <mxCell id="_Hb8ZXm0ojiE5atUSY3U-41" value="cgroup" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="388" y="1267" width="250" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="_Hb8ZXm0ojiE5atUSY3U-42" value="tune_h" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="393" y="1424" width="110" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
