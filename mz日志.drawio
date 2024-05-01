@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-01T08:27:34.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="2ujtm1zwkSn_esj4fOtj" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-01T08:28:06.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="2v-6dBo_ihjoxtKCjKbi" version="24.3.1" type="github">
   <diagram name="第 1 页" id="g3Hd0jUkaO_XOJKfGeiR">
     <mxGraphModel dx="1758" dy="195" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -416,6 +416,11 @@
             <mxPoint x="102" y="2026" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="2hhD5rwbu-yavu2AxfHl-4" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap;&quot;&gt;loggers&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UWZFVEixmOFbej5EBi0j-10">
+          <mxGeometry x="0.0517" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UWZFVEixmOFbej5EBi0j-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=0;" parent="1" source="2hhD5rwbu-yavu2AxfHl-1" target="UWZFVEixmOFbej5EBi0j-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="674" y="2168" as="sourcePoint" />
@@ -423,6 +428,11 @@
               <mxPoint x="728" y="2156" />
               <mxPoint x="728" y="2078" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2hhD5rwbu-yavu2AxfHl-3" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap;&quot;&gt;journal_list&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UWZFVEixmOFbej5EBi0j-12">
+          <mxGeometry x="-0.2865" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
