@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-02T05:37:12.246Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="1pNKwdZI-ahkpeP_o6PP" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-02T05:48:30.701Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="BHdTQ9wDqLxwH9mAji9q" version="24.2.5" type="github">
   <diagram name="第 1 页" id="g3Hd0jUkaO_XOJKfGeiR">
     <mxGraphModel dx="2164" dy="-407" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -657,7 +657,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-10" value="mzbp_logger_user" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="246" y="2736" width="321" height="338" as="geometry" />
+          <mxGeometry x="423" y="2595" width="321" height="338" as="geometry" />
         </mxCell>
         <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-11" value="enum mzbp_iterator_status &lt;b&gt;logger_iterator_status&lt;/b&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BfOKL5fRpGxiFbS0Y8Ow-10">
           <mxGeometry y="26" width="321" height="26" as="geometry" />
@@ -696,7 +696,7 @@
           <mxGeometry y="312" width="321" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-23" value="mzbp_logger_user_callback" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-316" y="2871" width="244" height="177" as="geometry" />
+          <mxGeometry x="46" y="2730" width="244" height="177" as="geometry" />
         </mxCell>
         <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-24" value="struct mzbp_logger_callback callback" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BfOKL5fRpGxiFbS0Y8Ow-23">
           <mxGeometry y="26" width="244" height="21" as="geometry" />
@@ -721,6 +721,32 @@
         </mxCell>
         <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-31" value="&lt;b style=&quot;font-size: 12px; text-align: left; text-wrap: wrap;&quot;&gt;callback_list&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BfOKL5fRpGxiFbS0Y8Ow-30">
           <mxGeometry x="-0.0482" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-32" value="mzbp_logger_mgr_iterator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="486" y="2241" width="193" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-33" value="int first" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BfOKL5fRpGxiFbS0Y8Ow-32">
+          <mxGeometry y="26" width="193" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-34" value="struct mzbp_logger_mgr *mgr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BfOKL5fRpGxiFbS0Y8Ow-32">
+          <mxGeometry y="52" width="193" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-35" value="struct mzbp_logger *pos" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BfOKL5fRpGxiFbS0Y8Ow-32">
+          <mxGeometry y="78" width="193" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-36" value="&lt;b style=&quot;font-size: 12px; text-align: left; text-wrap: wrap;&quot;&gt;logger_iterator&lt;/b&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.482;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BfOKL5fRpGxiFbS0Y8Ow-10" target="BfOKL5fRpGxiFbS0Y8Ow-35">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="733" y="2476" as="sourcePoint" />
+            <mxPoint x="893" y="2476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-37" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.135;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BfOKL5fRpGxiFbS0Y8Ow-34" target="2hhD5rwbu-yavu2AxfHl-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-38" value="mgr" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BfOKL5fRpGxiFbS0Y8Ow-37">
+          <mxGeometry x="-0.0859" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
