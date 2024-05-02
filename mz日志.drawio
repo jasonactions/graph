@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-02T04:34:39.313Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="d42gVGl2vNwIhG6NHzeI" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-02T04:35:08.830Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="r7YdWjARc2Vu6Xp1SxV7" version="24.2.5" type="github">
   <diagram name="第 1 页" id="g3Hd0jUkaO_XOJKfGeiR">
     <mxGraphModel dx="2164" dy="-407" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -668,16 +668,16 @@
         <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-13" value="struct mzbp_logger *logger" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BfOKL5fRpGxiFbS0Y8Ow-10">
           <mxGeometry y="78" width="321" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-14" value="enum mzbp_iterator_status &lt;b&gt;journal_iterator_status&lt;/b&gt;" style="text;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" vertex="1" parent="BfOKL5fRpGxiFbS0Y8Ow-10">
+        <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-14" value="enum mzbp_iterator_status &lt;b&gt;journal_iterator_status&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="BfOKL5fRpGxiFbS0Y8Ow-10">
           <mxGeometry y="104" width="321" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-15" value="struct mzbp_logger_iterator &lt;b&gt;journal_iterator&lt;/b&gt;" style="text;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" vertex="1" parent="BfOKL5fRpGxiFbS0Y8Ow-10">
+        <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-15" value="struct mzbp_logger_iterator &lt;b&gt;journal_iterator&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="BfOKL5fRpGxiFbS0Y8Ow-10">
           <mxGeometry y="130" width="321" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-16" value="struct mzbp_logger *&lt;b&gt;journal_logger&lt;/b&gt;" style="text;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" vertex="1" parent="BfOKL5fRpGxiFbS0Y8Ow-10">
+        <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-16" value="struct mzbp_logger *&lt;b&gt;journal_logger&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="BfOKL5fRpGxiFbS0Y8Ow-10">
           <mxGeometry y="156" width="321" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-17" value="struct mzbp_binary_journal *&lt;b&gt;journal&lt;/b&gt;" style="text;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" vertex="1" parent="BfOKL5fRpGxiFbS0Y8Ow-10">
+        <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-17" value="struct mzbp_binary_journal *&lt;b&gt;journal&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="BfOKL5fRpGxiFbS0Y8Ow-10">
           <mxGeometry y="182" width="321" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BfOKL5fRpGxiFbS0Y8Ow-18" value="enum mzbp_iterator_status &lt;b&gt;format_iterator_status&lt;/b&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BfOKL5fRpGxiFbS0Y8Ow-10">
