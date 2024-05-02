@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-02T03:28:58.485Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="sSVk40jz_IaruMR30vJX" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-02T03:34:39.416Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="DYH-rTViwP32bW6PipIs" version="24.2.5" type="github">
   <diagram name="第 1 页" id="g3Hd0jUkaO_XOJKfGeiR">
     <mxGraphModel dx="2164" dy="-407" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -347,7 +347,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0FKUfAftavoVTA-sGFL--51" value="mzbp_trigger_mgr" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
+        <mxCell id="0FKUfAftavoVTA-sGFL--51" value="mzbp_trigger_mgr" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-244" y="2073" width="239" height="234" as="geometry" />
         </mxCell>
         <mxCell id="0FKUfAftavoVTA-sGFL--53" value="struct mzbp_mzid_allocator idpool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="0FKUfAftavoVTA-sGFL--51" vertex="1">
@@ -579,7 +579,7 @@
         <mxCell id="2hhD5rwbu-yavu2AxfHl-85" value="&lt;div style=&quot;text-align: left;&quot;&gt;mzid_h&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="468" y="2770.5" width="58" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="2hhD5rwbu-yavu2AxfHl-90" value="mzbp_trigger_driver" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="2hhD5rwbu-yavu2AxfHl-90" value="mzbp_trigger_driver" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-229" y="2339" width="224" height="104" as="geometry" />
         </mxCell>
         <mxCell id="2hhD5rwbu-yavu2AxfHl-91" value="struct miscdevice *misc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="2hhD5rwbu-yavu2AxfHl-90" vertex="1">
@@ -602,7 +602,7 @@
             <mxPoint x="8" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2hhD5rwbu-yavu2AxfHl-100" value="mzbp_logger_mgr" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="2hhD5rwbu-yavu2AxfHl-100" value="mzbp_logger_mgr" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="104.5" y="2235" width="206" height="104" as="geometry" />
         </mxCell>
         <mxCell id="2hhD5rwbu-yavu2AxfHl-101" value="struct mzbp_mzid_allocator idpool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="2hhD5rwbu-yavu2AxfHl-100" vertex="1">
