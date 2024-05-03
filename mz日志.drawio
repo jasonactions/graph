@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-03T05:29:19.651Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="wNbwdoWGqNHlgibJEIZ-" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-03T05:30:20.908Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="584XYFD9p-m-UTx0z7t1" version="24.3.1" type="github">
   <diagram name="第 1 页" id="g3Hd0jUkaO_XOJKfGeiR">
-    <mxGraphModel dx="2029" dy="-662" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2950" dy="-258" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -326,7 +326,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0FKUfAftavoVTA-sGFL--40" value="mzbp_binary_journal_rawdata" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1001" y="1741" width="173" height="156" as="geometry" />
+          <mxGeometry x="995" y="1745" width="173" height="156" as="geometry" />
         </mxCell>
         <mxCell id="0FKUfAftavoVTA-sGFL--41" value="uint32_t rawdata_size" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="0FKUfAftavoVTA-sGFL--40" vertex="1">
           <mxGeometry y="26" width="173" height="26" as="geometry" />
@@ -343,11 +343,14 @@
         <mxCell id="0FKUfAftavoVTA-sGFL--45" value="char journal_buf[0]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="0FKUfAftavoVTA-sGFL--40" vertex="1">
           <mxGeometry y="130" width="173" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="0FKUfAftavoVTA-sGFL--46" value="rawdata" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.516;entryY=1.162;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="0FKUfAftavoVTA-sGFL--34" target="0FKUfAftavoVTA-sGFL--45" edge="1">
-          <mxGeometry x="-0.3862" y="4" width="160" relative="1" as="geometry">
+        <mxCell id="0FKUfAftavoVTA-sGFL--46" value="rawdata" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.516;entryY=1.162;entryDx=0;entryDy=0;exitX=1.002;exitY=0.106;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="0FKUfAftavoVTA-sGFL--34" target="0FKUfAftavoVTA-sGFL--45" edge="1">
+          <mxGeometry x="-0.3353" y="-6" width="160" relative="1" as="geometry">
             <mxPoint x="830" y="2208" as="sourcePoint" />
             <mxPoint x="830" y="2304" as="targetPoint" />
-            <mxPoint as="offset" />
+            <mxPoint x="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="1084" y="2001" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="0FKUfAftavoVTA-sGFL--51" value="mzbp_trigger_mgr" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#d6b656;" parent="1" vertex="1">
