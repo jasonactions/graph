@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T06:32:33.027Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="8q5mN0v849mL4LoUUXMH" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T06:39:44.211Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="KwhMcsmr-mnrWvvR_gqZ" version="24.3.1" type="github">
   <diagram id="ZUp7OmayhHO2g7F2E1sx" name="Page-1">
-    <mxGraphModel dx="2643" dy="2807" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1875" dy="2471" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2779,13 +2779,13 @@
           <mxGeometry x="51.80000000000001" y="9615" width="98" height="32" as="geometry" />
         </mxCell>
         <mxCell id="4HhnQ98M3vE24NQDJ_ZS-32" value="Thermal boost联动框架" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-85.96" y="9519" width="133.96" height="16" as="geometry" />
+          <mxGeometry x="-85.96" y="9515" width="133.96" height="16" as="geometry" />
         </mxCell>
         <mxCell id="4HhnQ98M3vE24NQDJ_ZS-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="9507" width="352" height="146" as="geometry" />
         </mxCell>
         <mxCell id="4HhnQ98M3vE24NQDJ_ZS-34" value="控温子系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="272.90000000000003" y="9518" width="133.96" height="16" as="geometry" />
+          <mxGeometry x="272.90000000000003" y="9513" width="133.96" height="16" as="geometry" />
         </mxCell>
         <mxCell id="4HhnQ98M3vE24NQDJ_ZS-35" value="精细化壳温拟合" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="178" y="9531" width="98" height="29" as="geometry" />
@@ -2812,10 +2812,10 @@
           <mxGeometry x="202.19000000000003" y="9385" width="80.41" height="27" as="geometry" />
         </mxCell>
         <mxCell id="_gz3jrbMt2I2-GoZ7gG4-16" value="uclamp控温设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="411" y="9528" width="98" height="26" as="geometry" />
+          <mxGeometry x="307.45" y="9531" width="98" height="29" as="geometry" />
         </mxCell>
         <mxCell id="_gz3jrbMt2I2-GoZ7gG4-17" value="dcvs控温设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="411" y="9560" width="98" height="27" as="geometry" />
+          <mxGeometry x="306.2" y="9571" width="98" height="33" as="geometry" />
         </mxCell>
         <mxCell id="_gz3jrbMt2I2-GoZ7gG4-20" value="精细化温控配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-35.7" y="9384" width="106.5" height="28" as="geometry" />
@@ -2848,10 +2848,10 @@
           <mxGeometry x="305.29" y="9417" width="80.41" height="27" as="geometry" />
         </mxCell>
         <mxCell id="_gz3jrbMt2I2-GoZ7gG4-33" value="充电限流控温设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="411" y="9592" width="98" height="27" as="geometry" />
+          <mxGeometry x="305.29" y="9617.5" width="98" height="29.5" as="geometry" />
         </mxCell>
-        <mxCell id="_gz3jrbMt2I2-GoZ7gG4-34" value="dcvs控温设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="411" y="9623" width="98" height="27" as="geometry" />
+        <mxCell id="_gz3jrbMt2I2-GoZ7gG4-34" value="闪光灯控温设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="9530" width="98" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_gz3jrbMt2I2-GoZ7gG4-35" value="相机控温" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="412.80000000000007" y="9316.5" width="80.41" height="27" as="geometry" />
@@ -2894,6 +2894,9 @@
         </mxCell>
         <mxCell id="_gz3jrbMt2I2-GoZ7gG4-50" value="Flash" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="252.60000000000002" y="9731" width="103.7" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="_gz3jrbMt2I2-GoZ7gG4-51" value="相机控温设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="9571" width="98" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
