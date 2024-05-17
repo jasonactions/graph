@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T05:04:32.275Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="A6rgT16OIInA39vPlaCH" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-17T05:08:26.849Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Hs40f8AmscdVY_il9w90" version="24.4.0" type="github">
   <diagram name="第 1 页" id="e5x21kg7gF92nxbEfZdq">
     <mxGraphModel dx="1737" dy="661" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -319,16 +319,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AGxBy_S6eStLedKQcRY--54" value="sched_util" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="485" y="1323" width="120" height="60" as="geometry" />
+          <mxGeometry x="515" y="1547" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AGxBy_S6eStLedKQcRY--55" value="cpufreq" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="666" y="1323" width="120" height="60" as="geometry" />
+          <mxGeometry x="696" y="1547" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AGxBy_S6eStLedKQcRY--57" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="488" y="1463" width="255" height="178" as="geometry" />
+          <mxGeometry x="571" y="1287" width="181" height="178" as="geometry" />
         </mxCell>
         <mxCell id="AGxBy_S6eStLedKQcRY--58" value="cgroups" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="489" y="1463" width="60" height="30" as="geometry" />
+          <mxGeometry x="572" y="1287" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AGxBy_S6eStLedKQcRY--59" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="582" y="1317" width="123" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="AGxBy_S6eStLedKQcRY--60" value="cpu controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="582" y="1317" width="83" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AGxBy_S6eStLedKQcRY--62" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="86" y="1482" width="150" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="AGxBy_S6eStLedKQcRY--63" value="RT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="86" y="1482" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AGxBy_S6eStLedKQcRY--65" value="task group uclamp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="587" y="1378.5" width="66" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
