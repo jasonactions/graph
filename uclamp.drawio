@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-05-18T15:40:49.181Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="2nWQfymusvGQ5ix7-HcA" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-18T16:40:34.970Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="ieu50-7plpaFNFd4xGFi" version="24.4.4" type="github">
   <diagram name="第 1 页" id="e5x21kg7gF92nxbEfZdq">
-    <mxGraphModel dx="2035" dy="1033" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2318" dy="1033" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PMJscxFvrVjdKWnUeip_-100" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-621" y="2502" width="811" height="528" as="geometry" />
+          <mxGeometry x="-621" y="2502" width="827" height="528" as="geometry" />
         </mxCell>
         <mxCell id="yG9WN5KvBpkxPedQXZVm-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="270" y="2502" width="297" height="534" as="geometry" />
@@ -665,6 +665,15 @@
         </mxCell>
         <mxCell id="rlL3_DX8bFf9kHOpjBzJ-18" value="表示uclamp的选取规则" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-567" y="3054" width="154" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rlL3_DX8bFf9kHOpjBzJ-21" value="task effective uclamp: (153, 862)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="26" y="2616" width="176" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rlL3_DX8bFf9kHOpjBzJ-22" value="task effective uclamp: (0, 240)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="33" y="2713" width="164" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rlL3_DX8bFf9kHOpjBzJ-24" value="task effective uclamp: (250,820)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="2815" width="170" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
