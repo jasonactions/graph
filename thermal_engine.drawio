@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-19T16:02:43.125Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="ltOmahcTSPLP_RpMeEpm" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-19T16:04:30.222Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="t3WuEgqVBv9ixA46tEYI" version="24.4.0" type="github">
   <diagram id="ZUp7OmayhHO2g7F2E1sx" name="Page-1">
-    <mxGraphModel dx="2090" dy="2565" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2318" dy="2665" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2991,11 +2991,11 @@
         <mxCell id="PeHfqb3G25gvoK73csIy-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-47.17" y="9941" width="138" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="PeHfqb3G25gvoK73csIy-29" value="dcvs控温" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PeHfqb3G25gvoK73csIy-29" value="dcvs限制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="203.49" y="10066" width="80.41" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="PeHfqb3G25gvoK73csIy-30" value="uclamp控温" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="204.19000000000003" y="10034" width="80.41" height="27" as="geometry" />
+        <mxCell id="PeHfqb3G25gvoK73csIy-30" value="uclamp限制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="204.19" y="10034" width="80.41" height="27" as="geometry" />
         </mxCell>
         <mxCell id="PeHfqb3G25gvoK73csIy-31" value="全局uclamp限制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="309.45" y="10180" width="98" height="29" as="geometry" />
@@ -3015,16 +3015,16 @@
         <mxCell id="PeHfqb3G25gvoK73csIy-36" value="温控配置协同模块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-33.05" y="9941" width="99.9" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PeHfqb3G25gvoK73csIy-37" value="背光控温" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PeHfqb3G25gvoK73csIy-37" value="背光限制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="308.3" y="9966" width="80.41" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="PeHfqb3G25gvoK73csIy-38" value="DDR控温" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PeHfqb3G25gvoK73csIy-38" value="DDR限频" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="308.3" y="10002" width="80.41" height="27" as="geometry" />
         </mxCell>
         <mxCell id="PeHfqb3G25gvoK73csIy-41" value="功耗异常日志埋点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180.5" y="10264" width="107.5" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="PeHfqb3G25gvoK73csIy-42" value="闪光灯控温" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PeHfqb3G25gvoK73csIy-42" value="闪光灯亮度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="307.29" y="10066" width="80.41" height="27" as="geometry" />
         </mxCell>
         <mxCell id="PeHfqb3G25gvoK73csIy-43" value="充电限流控温设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -3033,7 +3033,7 @@
         <mxCell id="PeHfqb3G25gvoK73csIy-44" value="黑暗唤醒限频" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="422" y="10179" width="98" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PeHfqb3G25gvoK73csIy-45" value="相机控温" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PeHfqb3G25gvoK73csIy-45" value="相机功耗限制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="414.80000000000007" y="9965.5" width="80.41" height="27" as="geometry" />
         </mxCell>
         <mxCell id="PeHfqb3G25gvoK73csIy-47" value="cpu freq boost" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
