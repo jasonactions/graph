@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-08T02:23:10.870Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="3AG3Uqvy7sOGZxIbaOaU" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-08T12:27:17.688Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="K6taWD9WHG9ZG6bPU51X" version="24.4.13" type="github">
   <diagram id="tyvgVfunimGXNx_3-ZlY" name="Page-1">
     <mxGraphModel dx="2305" dy="1366" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -1428,14 +1428,14 @@
         <mxCell id="Ft06FgqJB74dZnwdBBA4-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="645" y="4688" width="88" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="Ft06FgqJB74dZnwdBBA4-7" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="114.36000000000001" y="9152" width="100" height="411" as="geometry" />
+        <mxCell id="Ft06FgqJB74dZnwdBBA4-7" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-96" y="9153" width="100" height="411" as="geometry" />
         </mxCell>
-        <mxCell id="Ft06FgqJB74dZnwdBBA4-8" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="338.36" y="9152" width="100" height="398" as="geometry" />
+        <mxCell id="Ft06FgqJB74dZnwdBBA4-8" value="Binder Drv" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="128" y="9153" width="100" height="398" as="geometry" />
         </mxCell>
-        <mxCell id="Ft06FgqJB74dZnwdBBA4-9" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="550.36" y="9152" width="100" height="392" as="geometry" />
+        <mxCell id="Ft06FgqJB74dZnwdBBA4-9" value="Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="340" y="9153" width="100" height="392" as="geometry" />
         </mxCell>
         <mxCell id="Ft06FgqJB74dZnwdBBA4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;curved=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="Ft06FgqJB74dZnwdBBA4-10" target="Ft06FgqJB74dZnwdBBA4-13">
           <mxGeometry relative="1" as="geometry" />
@@ -1445,8 +1445,8 @@
             <mxPoint x="12" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ft06FgqJB74dZnwdBBA4-10" value="进程A" style="html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="120" y="7947" width="116" height="51" as="geometry" />
+        <mxCell id="Ft06FgqJB74dZnwdBBA4-10" value="client" style="html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-111.36000000000001" y="7964" width="116" height="51" as="geometry" />
         </mxCell>
         <mxCell id="Ft06FgqJB74dZnwdBBA4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="Ft06FgqJB74dZnwdBBA4-11" target="Ft06FgqJB74dZnwdBBA4-13">
           <mxGeometry relative="1" as="geometry" />
@@ -1456,11 +1456,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ft06FgqJB74dZnwdBBA4-11" value="进程B" style="html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="418.5" y="7947" width="116" height="51" as="geometry" />
+        <mxCell id="Ft06FgqJB74dZnwdBBA4-11" value="server" style="html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="187.14" y="7964" width="116" height="51" as="geometry" />
         </mxCell>
         <mxCell id="Ft06FgqJB74dZnwdBBA4-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
-          <mxGeometry x="72" y="8065" width="512" height="8" as="geometry" />
+          <mxGeometry x="-159.36" y="8082" width="512" height="8" as="geometry" />
         </mxCell>
         <mxCell id="Ft06FgqJB74dZnwdBBA4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;curved=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="Ft06FgqJB74dZnwdBBA4-13" target="Ft06FgqJB74dZnwdBBA4-11">
           <mxGeometry relative="1" as="geometry" />
@@ -1479,7 +1479,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ft06FgqJB74dZnwdBBA4-13" value="Binder Drv" style="html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="266.89" y="8125" width="116" height="51" as="geometry" />
+          <mxGeometry x="35.52999999999997" y="8142" width="116" height="51" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
