@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-11T10:12:14.792Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="lmpgGaHV6EgrqjlLAbHJ" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-11T10:25:52.742Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="9HLfRN-gD2wTcqXGnMQf" version="24.4.13" type="github">
   <diagram id="tyvgVfunimGXNx_3-ZlY" name="Page-1">
-    <mxGraphModel dx="2438" dy="1465" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2694" dy="1603" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2726,8 +2726,8 @@
         <mxCell id="PIGEDinqrCmapltgFoh4-200" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="240.75" y="4247.25" width="20" height="335.5" as="geometry" />
         </mxCell>
-        <mxCell id="PIGEDinqrCmapltgFoh4-201" value="flat_binder_object offsets" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="177" y="4412" width="151" height="26" as="geometry" />
+        <mxCell id="PIGEDinqrCmapltgFoh4-201" value="binder对象偏移地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="191" y="4412" width="123" height="26" as="geometry" />
         </mxCell>
         <mxCell id="PIGEDinqrCmapltgFoh4-202" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="246.75" y="4514.25" width="20" height="335" as="geometry" />
@@ -2869,6 +2869,33 @@
         </mxCell>
         <mxCell id="PIGEDinqrCmapltgFoh4-248" value="&#39;o&#39;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="667.78" y="4522" width="29" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PIGEDinqrCmapltgFoh4-249" value="binder对象偏移地址数组" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="82.75" y="4084" width="330.25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PIGEDinqrCmapltgFoh4-250" value="mode头" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="412.7" y="4084" width="71.61" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PIGEDinqrCmapltgFoh4-251" value="SM服务名长度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="483.31" y="4084" width="80.69" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PIGEDinqrCmapltgFoh4-252" value="SM服务名" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="564" y="4084" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PIGEDinqrCmapltgFoh4-253" value="SM服务名（cont.）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="82.88" y="4110" width="671.12" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PIGEDinqrCmapltgFoh4-254" value="SM服务名(cont.)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="82.75" y="4136" width="329.45" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PIGEDinqrCmapltgFoh4-255" value="函数名长度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="412.07" y="4136" width="71.61" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PIGEDinqrCmapltgFoh4-256" value="函数名" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="482.97999999999996" y="4136" width="271.22" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PIGEDinqrCmapltgFoh4-257" value="binder对象" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="82.55" y="4162" width="329.45" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
