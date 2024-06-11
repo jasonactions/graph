@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-11T10:47:17.148Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="tPz-XtZvOMjSotEdhwrY" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-11T10:52:57.502Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="mgSfvk3VCebuFtD-Hj4h" version="24.4.13" type="github">
   <diagram id="tyvgVfunimGXNx_3-ZlY" name="Page-1">
     <mxGraphModel dx="2438" dy="1465" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -2877,6 +2877,24 @@
         </mxCell>
         <mxCell id="PIGEDinqrCmapltgFoh4-260" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="RylVGK7vOtEJZH0USpXg-43" target="Ft06FgqJB74dZnwdBBA4-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIGEDinqrCmapltgFoh4-261" value="type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="83.55" y="4225" width="57.45" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PIGEDinqrCmapltgFoh4-262" value="flags" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="141.55" y="4225" width="57.45" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PIGEDinqrCmapltgFoh4-263" value="binder or handle" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="199" y="4225" width="145" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PIGEDinqrCmapltgFoh4-264" value="cookie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="343.86" y="4225.25" width="57.45" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PIGEDinqrCmapltgFoh4-265" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="232.11" y="4103.5" width="20" height="318" as="geometry" />
+        </mxCell>
+        <mxCell id="PIGEDinqrCmapltgFoh4-266" value="flat_binder_object" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="188.36" y="4266" width="113" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
