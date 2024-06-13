@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T15:49:05.798Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="guVC89i_1wFDQIdXiQBs" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T00:55:08.039Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="i6MwmQfv-qSTj-XEzOEt" version="24.5.3" type="github">
   <diagram id="tyvgVfunimGXNx_3-ZlY" name="Page-1">
     <mxGraphModel dx="2250" dy="1338" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -2904,8 +2904,8 @@
         </mxCell>
         <mxCell id="vJWLagK_cKFDzU77-OZG-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-295.22" y="11287" as="sourcePoint" />
-            <mxPoint x="474.78" y="11287" as="targetPoint" />
+            <mxPoint x="-300.39000000000004" y="11449" as="sourcePoint" />
+            <mxPoint x="469.60999999999996" y="11449" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vJWLagK_cKFDzU77-OZG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vJWLagK_cKFDzU77-OZG-8" target="vJWLagK_cKFDzU77-OZG-14">
@@ -2924,16 +2924,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vJWLagK_cKFDzU77-OZG-11" value="server注册服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-283" y="11058" width="110" height="32" as="geometry" />
+          <mxGeometry x="-220" y="11058" width="110" height="32" as="geometry" />
         </mxCell>
         <mxCell id="vJWLagK_cKFDzU77-OZG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vJWLagK_cKFDzU77-OZG-11" target="vJWLagK_cKFDzU77-OZG-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vJWLagK_cKFDzU77-OZG-14" value="构造binder_io" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-99.86" y="11190" width="110" height="32" as="geometry" />
+          <mxGeometry x="-106.86" y="11190" width="110" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="vJWLagK_cKFDzU77-OZG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vJWLagK_cKFDzU77-OZG-16" target="vJWLagK_cKFDzU77-OZG-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vJWLagK_cKFDzU77-OZG-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vJWLagK_cKFDzU77-OZG-16" target="vJWLagK_cKFDzU77-OZG-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vJWLagK_cKFDzU77-OZG-16" value="binder_call" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-99.86" y="11227" width="110" height="32" as="geometry" />
+          <mxGeometry x="-106.86" y="11227" width="110" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="vJWLagK_cKFDzU77-OZG-18" value="&lt;div&gt;初始化write_buffer，cmd为BC_TRANSACTION，&lt;/div&gt;&lt;div&gt;将binder_io转换为binder_transaction_data&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-29" y="11264" width="269" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="vJWLagK_cKFDzU77-OZG-19" value="将write_buffer放入binder_write_read" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-28.62" y="11310" width="112.62" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="vJWLagK_cKFDzU77-OZG-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vJWLagK_cKFDzU77-OZG-16" target="vJWLagK_cKFDzU77-OZG-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vJWLagK_cKFDzU77-OZG-22" value="执行BINDER_WRITE_READ ioctl系统调用，发送数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-28.620000000000005" y="11356" width="177.62" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
