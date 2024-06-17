@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T14:54:47.622Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="kvo3R3w-vRnqELSAnTXc" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-17T22:44:48.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="HKNRvm_8NqayLxXe8GUA" version="24.5.4" type="github">
   <diagram id="tyvgVfunimGXNx_3-ZlY" name="Page-1">
-    <mxGraphModel dx="2700" dy="1569" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2075" dy="1248" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3316,7 +3316,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Bwpg0REoJIJDWs-JddtI-172" value="binder_proc" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120.57" y="12299" width="161" height="234" as="geometry" />
+          <mxGeometry x="90.50999999999999" y="12629" width="161" height="234" as="geometry" />
         </mxCell>
         <mxCell id="Bwpg0REoJIJDWs-JddtI-173" value="struct rb_root threads" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Bwpg0REoJIJDWs-JddtI-172">
           <mxGeometry y="26" width="161" height="26" as="geometry" />
@@ -3346,7 +3346,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Bwpg0REoJIJDWs-JddtI-182" value="binder_procs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-136.45000000000002" y="12450" width="94" height="36" as="geometry" />
+          <mxGeometry x="-166.51000000000002" y="12780" width="94" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Bwpg0REoJIJDWs-JddtI-183" value="struct file" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-192.45" y="12603" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Bwpg0REoJIJDWs-JddtI-184" value="filp-&amp;gt;private_data" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Bwpg0REoJIJDWs-JddtI-183">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Bwpg0REoJIJDWs-JddtI-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.059;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Bwpg0REoJIJDWs-JddtI-184" target="Bwpg0REoJIJDWs-JddtI-172">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
