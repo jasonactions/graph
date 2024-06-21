@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T12:32:02.816Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="RP2-LQsKV2FhOtrmG7oP" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T12:38:59.086Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="wTVQXFbUPwXv9Br33cyj" version="24.5.5" type="github">
   <diagram id="tyvgVfunimGXNx_3-ZlY" name="Page-1">
-    <mxGraphModel dx="2813" dy="1473" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2513" dy="1515" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3384,12 +3384,17 @@
         <mxCell id="ieD6R3pfTgygfBxT1tKP-27" value="cookie" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="398.86" y="5317" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ieD6R3pfTgygfBxT1tKP-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.043;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Bwpg0REoJIJDWs-JddtI-205" target="Bwpg0REoJIJDWs-JddtI-111">
+        <mxCell id="ieD6R3pfTgygfBxT1tKP-36" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.043;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=0;" edge="1" parent="1" source="Bwpg0REoJIJDWs-JddtI-205" target="Bwpg0REoJIJDWs-JddtI-111">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ieD6R3pfTgygfBxT1tKP-37" value="transaction_stack" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ieD6R3pfTgygfBxT1tKP-36">
           <mxGeometry x="-0.084" y="5" relative="1" as="geometry">
             <mxPoint x="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ieD6R3pfTgygfBxT1tKP-39" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.107;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;" edge="1" parent="1" source="Bwpg0REoJIJDWs-JddtI-113" target="Bwpg0REoJIJDWs-JddtI-202">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="698" y="12402" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
