@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-23T02:31:21.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="9_DyNKtbDRtvvOkZkLJt" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-23T02:43:59.874Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="dXpdX0gkplTOxOiWV5mL" version="24.5.5" type="github">
   <diagram id="tyvgVfunimGXNx_3-ZlY" name="Page-1">
     <mxGraphModel dx="2685" dy="1473" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -2332,7 +2332,7 @@
         <mxCell id="Bwpg0REoJIJDWs-JddtI-10" value="cmd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="139.28" y="5561.63" width="41" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Bwpg0REoJIJDWs-JddtI-111" value="binder_transaction" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="Bwpg0REoJIJDWs-JddtI-111" value="binder_transaction（源）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="467" y="12378" width="222" height="234" as="geometry" />
         </mxCell>
         <mxCell id="Bwpg0REoJIJDWs-JddtI-113" value="struct binder_thread *from" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Bwpg0REoJIJDWs-JddtI-111" vertex="1">
@@ -3536,7 +3536,7 @@
         <mxCell id="ieD6R3pfTgygfBxT1tKP-23" value="cookie" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ieD6R3pfTgygfBxT1tKP-298">
           <mxGeometry x="309.33000000000004" y="415.0100000000002" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ieD6R3pfTgygfBxT1tKP-305" value="binder_buffer" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="ieD6R3pfTgygfBxT1tKP-305" value="binder_buffer（目的）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="84.98999999999998" y="12052" width="222" height="208" as="geometry" />
         </mxCell>
         <mxCell id="ieD6R3pfTgygfBxT1tKP-306" value="struct list_head entry" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ieD6R3pfTgygfBxT1tKP-305">
