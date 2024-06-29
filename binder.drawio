@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-28T15:23:34.104Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="MoIaifOIo_NfhZ_oC6RU" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-29T09:32:00.139Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="HZwD7kB4EUFB1BkoEG1m" version="24.6.2" type="github">
   <diagram id="tyvgVfunimGXNx_3-ZlY" name="Page-1">
-    <mxGraphModel dx="4300" dy="7959" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="4475" dy="8048" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7257,6 +7257,9 @@
         </mxCell>
         <mxCell id="n9UlwUGjFzinScJyBcIt-84" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.163;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" edge="1" parent="1" source="n9UlwUGjFzinScJyBcIt-57" target="n9UlwUGjFzinScJyBcIt-73">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n9UlwUGjFzinScJyBcIt-85" value="用来存放目标服务的引用" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1491.8" y="-4145.75" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
