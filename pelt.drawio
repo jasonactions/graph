@@ -50,7 +50,7 @@
           <mxGeometry x="234" y="697" width="108" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rU-V8Ytmf-W0rfWwS0kL-5" value="cfs_rq" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="545" y="350" width="156" height="104" as="geometry" />
+          <mxGeometry x="545" y="350" width="156" height="130" as="geometry" />
         </mxCell>
         <mxCell id="rU-V8Ytmf-W0rfWwS0kL-6" value="u64 runnable_load_avg" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rU-V8Ytmf-W0rfWwS0kL-5">
           <mxGeometry y="26" width="156" height="26" as="geometry" />
@@ -60,6 +60,9 @@
         </mxCell>
         <mxCell id="rU-V8Ytmf-W0rfWwS0kL-12" value="atomic64_t removed_load" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rU-V8Ytmf-W0rfWwS0kL-5">
           <mxGeometry y="78" width="156" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rU-V8Ytmf-W0rfWwS0kL-13" value="u64 tg_load_contrib" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rU-V8Ytmf-W0rfWwS0kL-5">
+          <mxGeometry y="104" width="156" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Qzs8wgfuzLvNGcvXCS6C-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="169.5" y="632.5" width="20" height="109" as="geometry" />
