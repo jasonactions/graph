@@ -442,6 +442,18 @@
             <mxPoint x="455" y="1283" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6Y1yxoXJ8vnw1N6pkK0m-15" value="find_best_target_env" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="689" y="1252" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="6Y1yxoXJ8vnw1N6pkK0m-16" value="bool&amp;nbsp;&amp;nbsp;&amp;nbsp; is_rtg" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6Y1yxoXJ8vnw1N6pkK0m-15">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6Y1yxoXJ8vnw1N6pkK0m-17" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6Y1yxoXJ8vnw1N6pkK0m-15">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6Y1yxoXJ8vnw1N6pkK0m-18" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6Y1yxoXJ8vnw1N6pkK0m-15">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
