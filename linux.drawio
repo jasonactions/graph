@@ -7,6 +7,11 @@
         <mxCell id="sOeRSbwTpXvEA6lAXWhu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sOeRSbwTpXvEA6lAXWhu-1" target="sOeRSbwTpXvEA6lAXWhu-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="sOeRSbwTpXvEA6lAXWhu-17" value="next" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sOeRSbwTpXvEA6lAXWhu-6">
+          <mxGeometry x="-0.234" y="-1" relative="1" as="geometry">
+            <mxPoint x="2" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="sOeRSbwTpXvEA6lAXWhu-1" value="irq_work" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="236" y="167" width="92" height="47" as="geometry" />
         </mxCell>
