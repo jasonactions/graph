@@ -82,6 +82,49 @@
         <mxCell id="sOeRSbwTpXvEA6lAXWhu-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.018;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sOeRSbwTpXvEA6lAXWhu-31" target="sOeRSbwTpXvEA6lAXWhu-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="sOeRSbwTpXvEA6lAXWhu-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="sOeRSbwTpXvEA6lAXWhu-34" target="sOeRSbwTpXvEA6lAXWhu-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sOeRSbwTpXvEA6lAXWhu-34" value="&lt;div&gt;free&lt;/div&gt;&lt;div&gt;next=NULL,&lt;/div&gt;&lt;div&gt;bit10=0&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="274" y="380" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sOeRSbwTpXvEA6lAXWhu-38" value="&lt;div&gt;claimed&lt;/div&gt;&lt;div&gt;next = NULL,&lt;/div&gt;&lt;div&gt;bit10=11&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="486" y="380" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sOeRSbwTpXvEA6lAXWhu-39" value="&lt;div&gt;pending&lt;/div&gt;&lt;div&gt;next != NULL,&lt;/div&gt;&lt;div&gt;bit10=11&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="642" y="506" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sOeRSbwTpXvEA6lAXWhu-40" value="&lt;div&gt;busy&lt;/div&gt;&lt;div&gt;next=NULL,&lt;/div&gt;&lt;div&gt;bit10=10&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="274" y="547" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sOeRSbwTpXvEA6lAXWhu-42" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" edge="1" parent="1" source="sOeRSbwTpXvEA6lAXWhu-38" target="sOeRSbwTpXvEA6lAXWhu-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sOeRSbwTpXvEA6lAXWhu-47" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-lark-html-role=&quot;root&quot; data-page-id=&quot;EvEZdxgZfojrwZxC1i3cj48qnFf&quot;&gt;&lt;div class=&quot;old-record-id-OGFBdoCd1olUtRxrfTAcztdanDc&quot; style=&quot;white-space:pre;&quot;&gt;enqueued&lt;/div&gt;&lt;/div&gt;&lt;span class=&quot;lark-record-clipboard&quot; data-lark-record-format=&quot;docx/text&quot; data-lark-record-data=&quot;{&amp;quot;rootId&amp;quot;:&amp;quot;EvEZdxgZfojrwZxC1i3cj48qnFf&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;enqueued&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+8&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7205516225223376900&amp;quot;]},&amp;quot;nextNum&amp;quot;:1}},&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;referenceRecordMap&amp;quot;:{},&amp;quot;extra&amp;quot;:{&amp;quot;channel&amp;quot;:&amp;quot;saas&amp;quot;,&amp;quot;pasteRandomId&amp;quot;:&amp;quot;723feb19-2d61-4690-8534-a67afd26e90e&amp;quot;,&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{}},&amp;quot;isKeepQuoteContainer&amp;quot;:false,&amp;quot;isFromCode&amp;quot;:true,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:95,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:186,&amp;quot;end&amp;quot;:194},&amp;quot;recordId&amp;quot;:&amp;quot;OGFBdoCd1olUtRxrfTAcztdanDc&amp;quot;}],&amp;quot;payloadMap&amp;quot;:{},&amp;quot;isCut&amp;quot;:false}&quot;&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sOeRSbwTpXvEA6lAXWhu-42">
+          <mxGeometry x="-0.1782" y="-22" relative="1" as="geometry">
+            <mxPoint x="23" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sOeRSbwTpXvEA6lAXWhu-43" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" edge="1" parent="1" source="sOeRSbwTpXvEA6lAXWhu-39" target="sOeRSbwTpXvEA6lAXWhu-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="692" y="577" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sOeRSbwTpXvEA6lAXWhu-48" value="callback in progress" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sOeRSbwTpXvEA6lAXWhu-43">
+          <mxGeometry x="-0.2686" y="10" relative="1" as="geometry">
+            <mxPoint x="-61" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sOeRSbwTpXvEA6lAXWhu-44" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" edge="1" parent="1" source="sOeRSbwTpXvEA6lAXWhu-40" target="sOeRSbwTpXvEA6lAXWhu-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sOeRSbwTpXvEA6lAXWhu-51" value="callback done" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sOeRSbwTpXvEA6lAXWhu-44">
+          <mxGeometry x="0.0069" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
