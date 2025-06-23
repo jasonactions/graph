@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.6">
   <diagram name="第 1 页" id="vafPdIi_Th9FfxXMxZau">
-    <mxGraphModel dx="1701" dy="765" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2114" dy="1140" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -880,7 +880,7 @@
         </mxCell>
         <mxCell id="euFiWl81AfjMBEFFsWDh-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.431;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="685.822" y="3153.15" as="sourcePoint" />
+            <mxPoint x="685.8220000000001" y="3153.15" as="sourcePoint" />
             <mxPoint x="686" y="3058" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -949,8 +949,23 @@
         <mxCell id="5WbWtvjZosyF_0q7um2s-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="5WbWtvjZosyF_0q7um2s-5" target="5WbWtvjZosyF_0q7um2s-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5WbWtvjZosyF_0q7um2s-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="5WbWtvjZosyF_0q7um2s-5" target="5WbWtvjZosyF_0q7um2s-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WbWtvjZosyF_0q7um2s-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="5WbWtvjZosyF_0q7um2s-5" target="5WbWtvjZosyF_0q7um2s-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WbWtvjZosyF_0q7um2s-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="5WbWtvjZosyF_0q7um2s-5" target="5WbWtvjZosyF_0q7um2s-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WbWtvjZosyF_0q7um2s-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="5WbWtvjZosyF_0q7um2s-5" target="5WbWtvjZosyF_0q7um2s-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WbWtvjZosyF_0q7um2s-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="5WbWtvjZosyF_0q7um2s-5" target="5WbWtvjZosyF_0q7um2s-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-5" value="walt_init" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-341" y="4515" width="120" height="49" as="geometry" />
+          <mxGeometry x="-138" y="4463" width="120" height="49" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-8" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="116" y="3845" width="120" height="49" as="geometry" />
@@ -1066,8 +1081,8 @@
         <mxCell id="5WbWtvjZosyF_0q7um2s-60" value="input_boost_init" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5WbWtvjZosyF_0q7um2s-59">
           <mxGeometry x="5.703299663299676" y="33.7037037037037" width="216.4848484848485" height="36.2962962962963" as="geometry" />
         </mxCell>
-        <mxCell id="5WbWtvjZosyF_0q7um2s-61" value="实时任务处理初始化，注册rt相关vendor hook" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5WbWtvjZosyF_0q7um2s-59">
-          <mxGeometry y="6.91358024691358" width="259" height="26" as="geometry" />
+        <mxCell id="5WbWtvjZosyF_0q7um2s-61" value="input boost初始化，创建work来处理input boost事件" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5WbWtvjZosyF_0q7um2s-59">
+          <mxGeometry y="6.91358024691358" width="293" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-62" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="125" y="4730" width="376" height="70" as="geometry" />
@@ -1075,8 +1090,8 @@
         <mxCell id="5WbWtvjZosyF_0q7um2s-63" value="core_ctl_init" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5WbWtvjZosyF_0q7um2s-62">
           <mxGeometry x="5.703299663299676" y="33.7037037037037" width="216.4848484848485" height="36.2962962962963" as="geometry" />
         </mxCell>
-        <mxCell id="5WbWtvjZosyF_0q7um2s-64" value="实时任务处理初始化，注册rt相关vendor hook" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5WbWtvjZosyF_0q7um2s-62">
-          <mxGeometry y="6.91358024691358" width="259" height="26" as="geometry" />
+        <mxCell id="5WbWtvjZosyF_0q7um2s-64" value="&lt;div&gt;cpu core初始化,创建core_ctl_thread调整cpu运行状态，&lt;/div&gt;&lt;div&gt;并对每个cpu cluster初始化&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5WbWtvjZosyF_0q7um2s-62">
+          <mxGeometry y="-0.08641975308642014" width="313" height="41" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-65" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="125" y="4802" width="376" height="70" as="geometry" />
@@ -1084,8 +1099,8 @@
         <mxCell id="5WbWtvjZosyF_0q7um2s-66" value="walt_boost_init" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5WbWtvjZosyF_0q7um2s-65">
           <mxGeometry x="5.703299663299676" y="33.7037037037037" width="216.4848484848485" height="36.2962962962963" as="geometry" />
         </mxCell>
-        <mxCell id="5WbWtvjZosyF_0q7um2s-67" value="实时任务处理初始化，注册rt相关vendor hook" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5WbWtvjZosyF_0q7um2s-65">
-          <mxGeometry y="6.91358024691358" width="259" height="26" as="geometry" />
+        <mxCell id="5WbWtvjZosyF_0q7um2s-67" value="设置默认的sched boost策略为FULL_THROTTLE_BOOST" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5WbWtvjZosyF_0q7um2s-65">
+          <mxGeometry y="6.91358024691358" width="325" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-68" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="123" y="4867" width="376" height="70" as="geometry" />
@@ -1093,8 +1108,8 @@
         <mxCell id="5WbWtvjZosyF_0q7um2s-69" value="waltgov_register" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5WbWtvjZosyF_0q7um2s-68">
           <mxGeometry x="5.703299663299676" y="33.7037037037037" width="216.4848484848485" height="36.2962962962963" as="geometry" />
         </mxCell>
-        <mxCell id="5WbWtvjZosyF_0q7um2s-70" value="实时任务处理初始化，注册rt相关vendor hook" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5WbWtvjZosyF_0q7um2s-68">
-          <mxGeometry y="6.91358024691358" width="259" height="26" as="geometry" />
+        <mxCell id="5WbWtvjZosyF_0q7um2s-70" value="注册walt cpufreq governor" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5WbWtvjZosyF_0q7um2s-68">
+          <mxGeometry y="6.91358024691358" width="157" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
