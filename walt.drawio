@@ -1009,11 +1009,20 @@
         <mxCell id="5WbWtvjZosyF_0q7um2s-37" value="注册调度相关的vendor hook回调函数" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="112" y="4169.913580246914" width="216" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="5WbWtvjZosyF_0q7um2s-39" value="walt_lb_init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="116.51" y="4287" width="171" height="16" as="geometry" />
+        <mxCell id="5WbWtvjZosyF_0q7um2s-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5WbWtvjZosyF_0q7um2s-39" target="5WbWtvjZosyF_0q7um2s-113">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5WbWtvjZosyF_0q7um2s-40" value="walt负载均衡初始化，注册负载均衡相关vendor hook" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="112" y="4239.913580246914" width="297" height="26" as="geometry" />
+        <mxCell id="5WbWtvjZosyF_0q7um2s-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;curved=1;" edge="1" parent="1" source="5WbWtvjZosyF_0q7um2s-39" target="5WbWtvjZosyF_0q7um2s-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WbWtvjZosyF_0q7um2s-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="5WbWtvjZosyF_0q7um2s-39" target="5WbWtvjZosyF_0q7um2s-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WbWtvjZosyF_0q7um2s-39" value="walt_lb_init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="113.49" y="4240" width="178.51" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="5WbWtvjZosyF_0q7um2s-40" value="&lt;div&gt;walt负载均衡初始化，注册负载&lt;/div&gt;&lt;div&gt;均衡相关vendor hook&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="116" y="4203.003580246914" width="183" height="41" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-42" value="walt_rt_init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="120.51" y="4362" width="171" height="13" as="geometry" />
@@ -1128,6 +1137,15 @@
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-112" value="对其它的task_group进行初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="518" y="4146.849999999999" width="185" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5WbWtvjZosyF_0q7um2s-113" value="walt_lb_rotate_work_init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="371" y="4206" width="171" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="5WbWtvjZosyF_0q7um2s-114" value="INIT_CSD(csd, walt_smp_newidle_balance...)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="363.59000000000003" y="4286" width="261.82" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="5WbWtvjZosyF_0q7um2s-115" value="注册load balance相关vendor hook" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="367" y="4249" width="191.5" height="16" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
