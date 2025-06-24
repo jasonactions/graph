@@ -909,7 +909,10 @@
           <mxGeometry x="121" y="3550" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-3" value="walt_task_group" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="266.5" y="3449" width="120" height="22" as="geometry" />
+          <mxGeometry x="393" y="3660" width="120" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="5WbWtvjZosyF_0q7um2s-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WbWtvjZosyF_0q7um2s-4" target="5WbWtvjZosyF_0q7um2s-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-4" value="task_group" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="132" y="3659" width="120" height="24" as="geometry" />
@@ -1116,6 +1119,15 @@
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-108" value="对&quot;top-app&quot;的task_group进行初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="509.5" y="4056.91" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5WbWtvjZosyF_0q7um2s-110" value="android_vendor_data1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="249.5" y="3650" width="137" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5WbWtvjZosyF_0q7um2s-111" value="对“foreground”的task_group进行初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="509.5" y="4103.7" width="227" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5WbWtvjZosyF_0q7um2s-112" value="对其它的task_group进行初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="518" y="4146.849999999999" width="185" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
