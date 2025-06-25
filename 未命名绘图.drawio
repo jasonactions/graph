@@ -1232,10 +1232,10 @@
           <mxGeometry x="600" y="4742" width="216.48" height="17" as="geometry" />
         </mxCell>
         <mxCell id="agkkChx3mpmV2NCseFok-368" value="sched_boosts[next_boost].enter()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="600" y="4792" width="216.48" height="17" as="geometry" />
+          <mxGeometry x="596.5" y="4789" width="216.48" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="agkkChx3mpmV2NCseFok-371" value="sched_full_throttle_boost_enter,&lt;div&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;允许更多 CPU 核心在线；启用频率聚合&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="598.75" y="4756" width="195" height="36" as="geometry" />
+        <mxCell id="agkkChx3mpmV2NCseFok-371" value="enter回调为sched_full_throttle_boost_enter,&lt;div&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;允许更多 CPU 核心在线；启用频率聚合&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="589.75" y="4756" width="213" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
