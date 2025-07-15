@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.2.0">
   <diagram name="第 1 页" id="vafPdIi_Th9FfxXMxZau">
-    <mxGraphModel dx="1478" dy="646" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1299" dy="538" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -903,19 +903,19 @@
           <mxGeometry x="147" y="3165" width="29" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-1" value="walt_task_struct" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="-48" y="3548" width="120" height="24" as="geometry" />
+          <mxGeometry x="-226" y="6194" width="120" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-2" value="task_struct" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="121" y="3550" width="120" height="25" as="geometry" />
+          <mxGeometry x="-57" y="6196" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-3" value="walt_task_group" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="393" y="3660" width="120" height="22" as="geometry" />
+          <mxGeometry x="215" y="6306" width="120" height="22" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="5WbWtvjZosyF_0q7um2s-4" target="5WbWtvjZosyF_0q7um2s-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-4" value="task_group" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="132" y="3659" width="120" height="24" as="geometry" />
+          <mxGeometry x="-46" y="6305" width="120" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;fontSize=10;" parent="1" source="5WbWtvjZosyF_0q7um2s-5" target="5WbWtvjZosyF_0q7um2s-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1091,28 +1091,28 @@
           <mxGeometry x="125.5" y="4859.003580246914" width="134" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-85" value="walt_related_thread_group" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="331.5" y="3515" width="164" height="25" as="geometry" />
+          <mxGeometry x="153.5" y="6161" width="164" height="25" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-86" value="related_thread_groups" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="554" y="3500" width="128" height="30" as="geometry" />
+          <mxGeometry x="376" y="6146" width="128" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-87" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="5WbWtvjZosyF_0q7um2s-86" target="5WbWtvjZosyF_0q7um2s-85" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="651" y="3615" as="sourcePoint" />
-            <mxPoint x="701" y="3565" as="targetPoint" />
+            <mxPoint x="473" y="6261" as="sourcePoint" />
+            <mxPoint x="523" y="6211" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-89" value="walt_related_thread_group" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="331.5" y="3540" width="164" height="25" as="geometry" />
+          <mxGeometry x="153.5" y="6186" width="164" height="25" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-90" value="..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="331.5" y="3565" width="164" height="25" as="geometry" />
+          <mxGeometry x="153.5" y="6211" width="164" height="25" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-91" value="walt_related_thread_group" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="331.5" y="3590" width="164" height="25" as="geometry" />
+          <mxGeometry x="153.5" y="6236" width="164" height="25" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-92" value="MAX_NUM_CGROUP_COLOC_ID" style="text;whiteSpace=wrap;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="503.25" y="3565" width="178.5" height="26" as="geometry" />
+          <mxGeometry x="325.25" y="6211" width="178.5" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;fontSize=10;" parent="1" source="5WbWtvjZosyF_0q7um2s-98" target="5WbWtvjZosyF_0q7um2s-101" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1142,7 +1142,7 @@
           <mxGeometry x="526.5" y="4061.91" width="179" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-110" value="android_vendor_data1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="259.5" y="3655" width="118" height="24" as="geometry" />
+          <mxGeometry x="81.5" y="6301" width="118" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5WbWtvjZosyF_0q7um2s-111" value="对“foreground”的task_group进行初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="528.5" y="4108.7" width="193" height="24" as="geometry" />
@@ -1206,7 +1206,7 @@
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;fontSize=10;" edge="1" parent="1" source="FbxXEgNmc6z0wWx5kWm_-17" target="FbxXEgNmc6z0wWx5kWm_-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="49" y="5309" as="targetPoint" />
+            <mxPoint x="-1" y="7446" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;fontSize=10;" edge="1" parent="1" source="FbxXEgNmc6z0wWx5kWm_-17" target="FbxXEgNmc6z0wWx5kWm_-24">
@@ -1267,37 +1267,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-17" value="walt_init(6.6)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="-208" y="5818" width="120" height="49" as="geometry" />
+          <mxGeometry x="-258" y="7955" width="120" height="49" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-20" value="alloc_related_thread_groups" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="40.49000000000001" y="5400.91" width="171" height="16" as="geometry" />
+          <mxGeometry x="-9.509999999999991" y="7537.91" width="171" height="16" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-21" value="&lt;div align=&quot;left&quot;&gt;分配walt_related_thread_group数组，最大MAX_NUM_CGROUP_COLOC_ID个&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;每个walt rtg里管理多个相关的walt task&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="39.5" y="5368.91" width="373" height="36" as="geometry" />
+          <mxGeometry x="-10.5" y="7505.91" width="373" height="36" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-23" value="&lt;div align=&quot;left&quot;&gt;周期计算器初始化函数,优先使用硬件计数器，&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;否则注册notify，监听频率切换模拟&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="47.26" y="5979" width="221" height="36" as="geometry" />
+          <mxGeometry x="-2.740000000000002" y="8116" width="221" height="36" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-24" value="init_clusters(void)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="43.49000000000001" y="5441" width="171" height="15" as="geometry" />
+          <mxGeometry x="-6.509999999999991" y="7578" width="171" height="15" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-25" value="初始化CPU集群信息" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="41.5" y="5423.913580246914" width="109" height="24" as="geometry" />
+          <mxGeometry x="-8.5" y="7560.913580246914" width="109" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="FbxXEgNmc6z0wWx5kWm_-27" target="FbxXEgNmc6z0wWx5kWm_-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-27" value="walt_init_tg_pointers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="48.50999999999999" y="5500" width="171" height="16" as="geometry" />
+          <mxGeometry x="-1.490000000000009" y="7637" width="171" height="16" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-28" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-lark-html-role=&quot;root&quot; data-page-id=&quot;QMZfdmoKmoAlkwx663RcUNmknGe&quot;&gt;&lt;div class=&quot;old-record-id-doxcnYSPu4Ja0SG5dBQbMUbP5fb&quot;&gt;遍历所有的walt_task_group，对其进行初始化&lt;/div&gt;&lt;/div&gt;&lt;span class=&quot;lark-record-clipboard&quot; data-lark-record-format=&quot;docx/text&quot; data-lark-record-data=&quot;{&amp;quot;rootId&amp;quot;:&amp;quot;QMZfdmoKmoAlkwx663RcUNmknGe&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;遍历所有的walt_task_group，对其进行初始化&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+s&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7205516225223376900&amp;quot;]},&amp;quot;nextNum&amp;quot;:1}},&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;referenceRecordMap&amp;quot;:{},&amp;quot;extra&amp;quot;:{&amp;quot;channel&amp;quot;:&amp;quot;saas&amp;quot;,&amp;quot;isEqualBlockSelection&amp;quot;:false,&amp;quot;pasteRandomId&amp;quot;:&amp;quot;d88a54f6-930c-4853-a8c1-e2dd4fc0556b&amp;quot;,&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{}},&amp;quot;isKeepQuoteContainer&amp;quot;:false,&amp;quot;isFromCode&amp;quot;:false,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:17,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:13,&amp;quot;end&amp;quot;:41},&amp;quot;recordId&amp;quot;:&amp;quot;doxcnYSPu4Ja0SG5dBQbMUbP5fb&amp;quot;}],&amp;quot;payloadMap&amp;quot;:{},&amp;quot;isCut&amp;quot;:false}&quot;&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="7.009999999999991" y="5480.853580246913" width="221" height="24" as="geometry" />
+          <mxGeometry x="-42.99000000000001" y="7617.853580246913" width="221" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-29" value="register_walt_hooks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="47.5" y="5547" width="171" height="14" as="geometry" />
+          <mxGeometry x="-2.5" y="7684" width="171" height="14" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-30" value="注册调度相关的vendor hook回调函数" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="42" y="5529.913580246914" width="183" height="24" as="geometry" />
+          <mxGeometry x="-8" y="7666.913580246914" width="183" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="FbxXEgNmc6z0wWx5kWm_-34" target="FbxXEgNmc6z0wWx5kWm_-69">
           <mxGeometry relative="1" as="geometry" />
@@ -1309,43 +1309,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-34" value="walt_lb_init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="43.49000000000001" y="5595" width="178.51" height="16" as="geometry" />
+          <mxGeometry x="-6.509999999999991" y="7732" width="178.51" height="16" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-35" value="&lt;div&gt;walt负载均衡初始化，注册负载&lt;/div&gt;&lt;div&gt;均衡相关vendor hook&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="46" y="5562.003580246914" width="156" height="36" as="geometry" />
+          <mxGeometry x="-4" y="7699.003580246914" width="156" height="36" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-36" value="walt_rt_init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="53" y="5661" width="171" height="13" as="geometry" />
+          <mxGeometry x="3" y="7798" width="171" height="13" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-37" value="实时任务处理初始化，注册rt相关vendor hook" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="46" y="5636.913580246914" width="219" height="24" as="geometry" />
+          <mxGeometry x="-4" y="7773.913580246914" width="219" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-38" value="walt_cfs_init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="48" y="5708" width="171" height="16" as="geometry" />
+          <mxGeometry x="-2" y="7845" width="171" height="16" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-39" value="cfs任务处理初始化，注册cfs相关vendor hook" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="46.5" y="5687.003580246914" width="219" height="24" as="geometry" />
+          <mxGeometry x="-3.5" y="7824.003580246914" width="219" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;fontSize=10;" edge="1" parent="1" source="FbxXEgNmc6z0wWx5kWm_-41" target="FbxXEgNmc6z0wWx5kWm_-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-41" value="walt_halt_init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="55.00999999999999" y="5766" width="171" height="15" as="geometry" />
+          <mxGeometry x="5.009999999999991" y="7903" width="171" height="15" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-42" value="&lt;div&gt;注册idle相关vendor hook, 创建内核线程&lt;/div&gt;&lt;div&gt;从特定 CPU 上移除任务到其它CPU&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="50" y="5733.003580246914" width="194" height="36" as="geometry" />
+          <mxGeometry y="7870.003580246914" width="194" height="36" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-43" value="schedule_work(&amp;amp;rebuild_sd_work)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="50" y="5850" width="190" height="18" as="geometry" />
+          <mxGeometry y="7987" width="190" height="18" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-44" value="调度域不存在则触发建立调度域" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="52.5" y="5829.003580246914" width="158" height="24" as="geometry" />
+          <mxGeometry x="2.5" y="7966.003580246914" width="158" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-45" value="register_sysctl_table(walt_base_table)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="46" y="6095" width="216.48" height="22" as="geometry" />
+          <mxGeometry x="-4" y="8232" width="216.48" height="22" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-46" value="将walt参数表注册进系统中，供用户访问" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="46" y="6074.003580246914" width="196" height="24" as="geometry" />
+          <mxGeometry x="-4" y="8211.003580246914" width="196" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;fontSize=10;" edge="1" parent="1" source="FbxXEgNmc6z0wWx5kWm_-49" target="FbxXEgNmc6z0wWx5kWm_-79">
           <mxGeometry relative="1" as="geometry" />
@@ -1354,31 +1354,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-49" value="input_boost_init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="47.25999999999999" y="6141" width="179.74" height="22" as="geometry" />
+          <mxGeometry x="-2.740000000000009" y="8278" width="179.74" height="22" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-50" value="input boost初始化，创建work来处理input boost事件" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="45.440000000000055" y="6120.003580246914" width="247" height="24" as="geometry" />
+          <mxGeometry x="-4.559999999999945" y="8257.003580246914" width="247" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;fontSize=10;" edge="1" parent="1" source="FbxXEgNmc6z0wWx5kWm_-52" target="FbxXEgNmc6z0wWx5kWm_-85">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-52" value="core_ctl_init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="62" y="6256" width="128.24" height="18" as="geometry" />
+          <mxGeometry x="12" y="8393" width="128.24" height="18" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-53" value="&lt;div&gt;cpu core初始化,创建core_ctl_thread调整cpu运行状态，&lt;/div&gt;&lt;div&gt;并对每个cpu cluster初始化&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="15.68000000000011" y="6216.003580246914" width="264" height="36" as="geometry" />
+          <mxGeometry x="-34.319999999999894" y="8353.003580246914" width="264" height="36" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-54" value="walt_boost_init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="58.700000000000045" y="6338" width="216.48" height="17" as="geometry" />
+          <mxGeometry x="8.700000000000045" y="8475" width="216.48" height="17" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-55" value="设置默认的sched boost策略为FULL_THROTTLE_BOOST" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="55.00999999999999" y="6315.003580246914" width="275" height="24" as="geometry" />
+          <mxGeometry x="5.009999999999991" y="8452.003580246914" width="275" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-56" value="waltgov_register" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="57" y="6402" width="216.48" height="16" as="geometry" />
+          <mxGeometry x="7" y="8539" width="216.48" height="16" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-57" value="注册walt cpufreq governor" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="55.5" y="6384.003580246914" width="134" height="24" as="geometry" />
+          <mxGeometry x="5.5" y="8521.003580246914" width="134" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;fontSize=10;" edge="1" parent="1" source="FbxXEgNmc6z0wWx5kWm_-61" target="FbxXEgNmc6z0wWx5kWm_-63">
           <mxGeometry relative="1" as="geometry" />
@@ -1390,79 +1390,79 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-61" value="walt_update_tg_pointer(css)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="258" y="5500" width="171" height="16" as="geometry" />
+          <mxGeometry x="208" y="7637" width="171" height="16" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-62" value="&lt;div&gt;遍历所有的task_group，根据&lt;/div&gt;&lt;div&gt;不同的cgroup进行差异化初始化&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="261.5" y="5472.849999999999" width="159" height="36" as="geometry" />
+          <mxGeometry x="211.5" y="7609.849999999999" width="159" height="36" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-63" value="walt_update_tg_pointer(css)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="465" y="5479.7" width="171" height="18.3" as="geometry" />
+          <mxGeometry x="415" y="7616.7" width="171" height="18.3" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-64" value="walt_update_tg_pointer(css)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="465.5" y="5434" width="171" height="20" as="geometry" />
+          <mxGeometry x="415.5" y="7571" width="171" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-65" value="walt_update_tg_pointer(css)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="467" y="5524.91" width="171" height="16" as="geometry" />
+          <mxGeometry x="417" y="7661.91" width="171" height="16" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-66" value="对&quot;top-app&quot;的task_group进行初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="456.5" y="5416.91" width="179" height="24" as="geometry" />
+          <mxGeometry x="406.5" y="7553.91" width="179" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-67" value="对“foreground”的task_group进行初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="458.5" y="5463.7" width="193" height="24" as="geometry" />
+          <mxGeometry x="408.5" y="7600.7" width="193" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-68" value="对其它的task_group进行初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="463" y="5506.849999999999" width="157" height="24" as="geometry" />
+          <mxGeometry x="413" y="7643.849999999999" width="157" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-69" value="walt_lb_rotate_work_init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="301" y="5561" width="171" height="16" as="geometry" />
+          <mxGeometry x="251" y="7698" width="171" height="16" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-70" value="INIT_CSD(csd, walt_smp_newidle_balance...)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="299.18000000000006" y="5636" width="261.82" height="16" as="geometry" />
+          <mxGeometry x="249.18000000000006" y="7773" width="261.82" height="16" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-71" value="注册load balance相关vendor hook" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="301.5" y="5588" width="191.5" height="16" as="geometry" />
+          <mxGeometry x="251.5" y="7725" width="191.5" height="16" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-72" value="初始化定期轮转任务，用于任务交换" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="288" y="5543" width="178" height="24" as="geometry" />
+          <mxGeometry x="238" y="7680" width="178" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-73" value="&lt;div&gt;&lt;font&gt;遍历每个cpu初始化&lt;code style=&quot;font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace; background-color: rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.08); border-radius: 2px; padding: 0px 2px;&quot; class=&quot;ne-code&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;call_single_data_t结构，&lt;/span&gt;&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;code style=&quot;font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace; background-color: rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.08); border-radius: 2px; padding: 0px 2px;&quot; class=&quot;ne-code&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;用于跨CPU触发负载均衡&lt;/span&gt;&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="293" y="5608" width="248" height="38" as="geometry" />
+          <mxGeometry x="243" y="7745" width="248" height="38" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-74" value="kthread_run(try_drain_rqs, &amp;amp;drain_data, &quot;halt_drain_rqs&quot;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="295.5" y="5758" width="171" height="23" as="geometry" />
+          <mxGeometry x="245.5" y="7895" width="171" height="23" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-75" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;&lt;font&gt;异步处理需要排空的 CPU 运行队列&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="289" y="5736" width="175" height="24" as="geometry" />
+          <mxGeometry x="239" y="7873" width="175" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-76" value="stop_machine(walt_init_stop_handler,..)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="49" y="6058" width="190" height="18" as="geometry" />
+          <mxGeometry x="-1" y="8195" width="190" height="18" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-77" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;在全局范围内初始化 WALT 调度器的关键数据结构&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="46.94000000000001" y="6040" width="240" height="24" as="geometry" />
+          <mxGeometry x="-3.059999999999988" y="8177" width="240" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-78" value="INIT_WORK(&amp;amp;input_boost_work, do_input_boost);" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;align=left;" vertex="1" parent="1">
-          <mxGeometry x="295.5" y="6115" width="152.99" height="22" as="geometry" />
+          <mxGeometry x="245.5" y="8252" width="152.99" height="22" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-79" value="&lt;div&gt;freq_qos_add_request(&amp;amp;policy-&amp;gt;constraints, req,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; FREQ_QOS_MIN, policy-&amp;gt;min)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;align=left;" vertex="1" parent="1">
-          <mxGeometry x="295.5" y="6180" width="204.98" height="22" as="geometry" />
+          <mxGeometry x="245.5" y="8317" width="204.98" height="22" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;fontSize=10;" edge="1" parent="1" source="FbxXEgNmc6z0wWx5kWm_-49" target="FbxXEgNmc6z0wWx5kWm_-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-81" value="input_register_handler(&amp;amp;inputboost_input_handler)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="295.5" y="6216" width="228.5" height="22" as="geometry" />
+          <mxGeometry x="245.5" y="8353" width="228.5" height="22" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-82" value="INIT_DELAYED_WORK(&amp;amp;input_boost_rem, do_input_boost_rem);" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;align=left;" vertex="1" parent="1">
-          <mxGeometry x="295.5" y="6148" width="203.5" height="22" as="geometry" />
+          <mxGeometry x="245.5" y="8285" width="203.5" height="22" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.545;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;fontSize=10;" edge="1" parent="1" source="FbxXEgNmc6z0wWx5kWm_-49" target="FbxXEgNmc6z0wWx5kWm_-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-84" value="kthread_run(try_core_ctl, NULL, &quot;core_ctl&quot;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="241" y="6256" width="205" height="18" as="geometry" />
+          <mxGeometry x="191" y="8393" width="205" height="18" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-85" value="&lt;span style=&quot;text-align: left;&quot;&gt;cluster_init(&amp;amp;cluster-&amp;gt;cpus)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="249" y="6288" width="155" height="18" as="geometry" />
+          <mxGeometry x="199" y="8425" width="155" height="18" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.015;entryY=0.533;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;fontSize=10;" edge="1" parent="1" source="FbxXEgNmc6z0wWx5kWm_-52" target="FbxXEgNmc6z0wWx5kWm_-84">
           <mxGeometry relative="1" as="geometry" />
@@ -1471,34 +1471,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-87" value="walt_mvp_lock_ordering_init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="54" y="5808" width="171" height="18" as="geometry" />
+          <mxGeometry x="4" y="7945" width="171" height="18" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-91" value="&lt;span style=&quot;text-align: left;&quot;&gt;register_trace_android_vh_alter_mutex_list_add&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="293" y="5808" width="261" height="18" as="geometry" />
+          <mxGeometry x="243" y="7945" width="261" height="18" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-94" value="&lt;span style=&quot;text-align: left;&quot;&gt;walt_update_cluster_topology&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="51" y="5891.4" width="190" height="18" as="geometry" />
+          <mxGeometry x="1" y="8028.4" width="190" height="18" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-96" value="walt_init_cycle_counter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="51" y="6011" width="190" height="18" as="geometry" />
+          <mxGeometry x="1" y="8148" width="190" height="18" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-97" value="walt_config" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="48.50999999999999" y="5960" width="190" height="18" as="geometry" />
+          <mxGeometry x="-1.490000000000009" y="8097" width="190" height="18" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-98" value="walt_remove_cpufreq_efficiencies_available" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="49" y="5927.4" width="194" height="18" as="geometry" />
+          <mxGeometry x="-1" y="8064.4" width="194" height="18" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-99" value="根据系统CPU拓扑结构初始化调度器集群信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="44" y="5873" width="219" height="24" as="geometry" />
+          <mxGeometry x="-6" y="8010" width="219" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-100" value="关闭硬件能效优化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="48" y="5906" width="98" height="24" as="geometry" />
+          <mxGeometry x="-2" y="8043" width="98" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-101" value="walt参数初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="52" y="5943" width="86" height="24" as="geometry" />
+          <mxGeometry x="2" y="8080" width="86" height="24" as="geometry" />
         </mxCell>
         <mxCell id="FbxXEgNmc6z0wWx5kWm_-103" value="&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;register_syscore_ops(&amp;amp;walt_syscore_ops);&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="39.5" y="5344" width="216.37" height="16" as="geometry" />
+          <mxGeometry x="-10.5" y="7481" width="216.37" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="FbxXEgNmc6z0wWx5kWm_-109" value="walt_sched_cluster" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-232.75" y="6392" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="FbxXEgNmc6z0wWx5kWm_-110" value="smart_freq_cluster_info" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-3" y="6417" width="120" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
