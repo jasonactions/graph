@@ -1633,6 +1633,18 @@
         <mxCell id="nBrWXoBSe5nYMqgknG2I-53" value="ID为DEFAULT_CGROUP_COLOC_ID (1)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="-290.5" y="6512" width="185" height="23" as="geometry" />
         </mxCell>
+        <mxCell id="nBrWXoBSe5nYMqgknG2I-55" value="&lt;span style=&quot;font-family: SFMono-Regular, Consolas, &amp;quot;Liberation Mono&amp;quot;, Menlo, Courier, monospace; text-align: left; background-color: rgba(0, 0, 0, 0.06);&quot;&gt;&lt;font&gt;walt_sched_stats&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-232" y="6629" width="123" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="nBrWXoBSe5nYMqgknG2I-56" value="&lt;span style=&quot;font-family: SFMono-Regular, Consolas, &amp;quot;Liberation Mono&amp;quot;, Menlo, Courier, monospace; font-size: 12px; text-align: left; background-color: rgba(0, 0, 0, 0.06);&quot;&gt;walt_rq&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-208" y="6707" width="67" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="nBrWXoBSe5nYMqgknG2I-57" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.472;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nBrWXoBSe5nYMqgknG2I-56" target="nBrWXoBSe5nYMqgknG2I-55">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-94" y="6704" as="sourcePoint" />
+            <mxPoint x="66" y="6704" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
