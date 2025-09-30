@@ -1710,17 +1710,6 @@
             <mxPoint x="-271" y="6719" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ddHS8-hxobGrj5IcNw8T-12" value="&lt;span style=&quot;font-family: SFMono-Regular, Consolas, &amp;quot;Liberation Mono&amp;quot;, Menlo, Courier, monospace; font-size: 12px; text-align: left; background-color: rgba(0, 0, 0, 0.06);&quot;&gt;walt_sched_cluster&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="-418.32" y="6777" width="138" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="ddHS8-hxobGrj5IcNw8T-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nBrWXoBSe5nYMqgknG2I-56" target="ddHS8-hxobGrj5IcNw8T-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ddHS8-hxobGrj5IcNw8T-14" value="cluster" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ddHS8-hxobGrj5IcNw8T-13">
-          <mxGeometry x="-0.1688" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ddHS8-hxobGrj5IcNw8T-16" value="cluster" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-449" y="6736" width="53" height="26" as="geometry" />
         </mxCell>
